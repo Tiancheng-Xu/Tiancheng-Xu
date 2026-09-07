@@ -21,7 +21,7 @@ Full-stack / AI / Web3 engineer building verifiable products and contributing fo
 
 ## Open-source contributions
 
-当前可核验的 OSS 共建：**1 merged + 9 open pull requests**（更新于 2026-09-07）。
+当前可核验的 OSS 共建：**1 merged + 10 open pull requests**（更新于 2026-09-07）。
 
 ### Merged
 
@@ -33,6 +33,7 @@ Full-stack / AI / Web3 engineer building verifiable products and contributing fo
 
 | Project | Pull request | Contribution |
 | --- | --- | --- |
+| Bitcoin Dev Kit | [#2276](https://github.com/bitcoindevkit/bdk/pull/2276) | Preserve the first floating `TxOut` and consistent `ChangeSet` semantics |
 | Backstage | [#35564](https://github.com/backstage/backstage/pull/35564) | Resolve an `undici` security advisory |
 | PR-Agent | [#3141](https://github.com/The-PR-Agent/pr-agent/pull/3141) | Honor GitLab `/ask_line` old-side positions |
 | PR-Agent | [#3140](https://github.com/The-PR-Agent/pr-agent/pull/3140) | Remove dead shared rate-limit handlers |
