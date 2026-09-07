@@ -1,6 +1,23 @@
 # Hi, I'm Tiancheng Xu 👋
 
-I build and improve developer tools, AI applications, and open-source software.
+Full-stack / AI / Web3 engineer building verifiable products and contributing focused fixes to open source.
+
+全栈、AI 与 Web3 工程实践者。关注可验证交付、工程自动化，以及能被上游真正采用的开源修复。
+
+## Featured projects
+
+| Project | What it demonstrates | Links |
+| --- | --- | --- |
+| Agent Market | Verifiable multi-agent task marketplace on Sepolia, with structured orchestration and evidence-backed delivery | [Live](https://agent-market.baby2b.online/) |
+| BabySteps | Family growth DApp with React, Wagmi, Solidity, Edge SSR, hydration safeguards and production evidence | [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Live](https://babysteps.baby2b.online/) |
+| Personal AI Agent | Qwen3-8B QLoRA training, frozen evaluation, GGUF quantization and local Ollama delivery | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
+| Showcase Dashboard | A public portfolio hub with reviewed project facts, static-first rendering and project-level evidence | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) |
+| GitHub Profile Studio | Local-first GitHub profile workspace with React and compatible Node/Go backends | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) |
+| Portfolio Sync | GitHub App + Cloudflare Worker pipeline that keeps the portfolio index aligned with project manifests | [Source](https://github.com/Tiancheng-Xu/fullstack-showcase/tree/main/workers/portfolio-sync-webhook) |
+| Shared Evidence Verifier | GitHub OIDC and a least-privilege AWS verifier for version-bound public delivery checks | [Repository](https://github.com/Tiancheng-Xu/.github) |
+| Performance Observability & Cost Control | Reproducible performance sampling, historical evidence and explicit cloud cleanup boundaries | [Dashboard](https://baby2b.online/dashboard/) |
+
+> Some project source repositories are private. Public links above expose only approved product pages and evidence, never credentials, private datasets, or model weights.
 
 ## Open-source contributions
 
