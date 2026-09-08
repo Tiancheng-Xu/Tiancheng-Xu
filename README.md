@@ -21,7 +21,7 @@ Full-stack / AI / Web3 engineer building verifiable products and contributing fo
 
 ## Open-source contributions
 
-当前可核验的 OSS 共建：**4 merged + 16 open pull requests**（更新于 2026-09-07）。
+当前可核验的 OSS 共建：**4 merged + 20 open pull requests**（更新于 2026-09-07）。
 
 ### Merged
 
@@ -36,6 +36,10 @@ Full-stack / AI / Web3 engineer building verifiable products and contributing fo
 
 | Project | Pull request | Contribution |
 | --- | --- | --- |
+| RTK | [#3933](https://github.com/rtk-ai/rtk/pull/3933) | Match Ruff format routing to the first argument |
+| Deno | [#36794](https://github.com/denoland/deno/pull/36794) | Preserve the `--` separator before CLI entrypoints |
+| pnpm | [#14675](https://github.com/pnpm/pnpm/pull/14675) | Clarify workspace package glob semantics |
+| pnpm | [#14674](https://github.com/pnpm/pnpm/pull/14674) | List pnpm v12 in the security support policy |
 | LiteLLM | [#40183](https://github.com/BerriAI/litellm/pull/40183) | Add source-backed OpenRouter metadata for `gpt-5.6-sol` |
 | RTK | [#3922](https://github.com/rtk-ai/rtk/pull/3922) | Add a compact `gitleaks` TOML filter for secret-scan output |
 | Lightpanda | [#3440](https://github.com/lightpanda-io/browser/pull/3440) | Preserve CSS custom properties in computed styles |
