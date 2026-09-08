@@ -21,12 +21,14 @@ Full-stack / AI / Web3 engineer building verifiable products and contributing fo
 
 ## Open-source contributions
 
-当前可核验的 OSS 共建：**2 merged + 10 open pull requests**（更新于 2026-09-07）。
+当前可核验的 OSS 共建：**4 merged + 16 open pull requests**（更新于 2026-09-07）。
 
 ### Merged
 
 | Project | Pull request | Contribution |
 | --- | --- | --- |
+| PR-Agent | [#3140](https://github.com/The-PR-Agent/pr-agent/pull/3140) | Remove dead shared rate-limit handlers |
+| PR-Agent | [#3141](https://github.com/The-PR-Agent/pr-agent/pull/3141) | Honor GitLab `/ask_line` old-side positions |
 | PR-Agent | [#3142](https://github.com/The-PR-Agent/pr-agent/pull/3142) | Hide disabled commands from user-facing help output |
 | PySNMP MIBs | [#361](https://github.com/pysnmp/mibs/pull/361) | Correct the TCPIPX unspecified table row type |
 
@@ -34,15 +36,21 @@ Full-stack / AI / Web3 engineer building verifiable products and contributing fo
 
 | Project | Pull request | Contribution |
 | --- | --- | --- |
+| LiteLLM | [#40183](https://github.com/BerriAI/litellm/pull/40183) | Add source-backed OpenRouter metadata for `gpt-5.6-sol` |
+| RTK | [#3922](https://github.com/rtk-ai/rtk/pull/3922) | Add a compact `gitleaks` TOML filter for secret-scan output |
+| Lightpanda | [#3440](https://github.com/lightpanda-io/browser/pull/3440) | Preserve CSS custom properties in computed styles |
+| Portless | [#413](https://github.com/vercel-labs/portless/pull/413) | Preserve routes when self-daemonized commands exit |
+| Chrome DevTools MCP | [#2686](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2686) | Cover scheduled script navigation without fixed sleeps |
+| DeerFlow | [#5266](https://github.com/bytedance/deer-flow/pull/5266) | Propagate remote sandbox `list_dir` errors |
+| Context Mode | [#1128](https://github.com/mksglu/context-mode/pull/1128) | Fix bounded curl/wget pipeline and multiline routing |
+| Tabler Icons | [#1590](https://github.com/tabler/tabler-icons/pull/1590) | Preserve the SolidJS JSX source export for Vite SSR |
+| Vite | [#23235](https://github.com/vitejs/vite/pull/23235) | Explain server-only module reload behavior in SSR |
+| MCP Servers | [#4775](https://github.com/modelcontextprotocol/servers/pull/4775) | Emit object input schemas for the filesystem server |
 | Bitcoin Dev Kit | [#2276](https://github.com/bitcoindevkit/bdk/pull/2276) | Preserve the first floating `TxOut` and consistent `ChangeSet` semantics |
 | Backstage | [#35564](https://github.com/backstage/backstage/pull/35564) | Resolve an `undici` security advisory |
-| PR-Agent | [#3141](https://github.com/The-PR-Agent/pr-agent/pull/3141) | Honor GitLab `/ask_line` old-side positions |
-| PR-Agent | [#3140](https://github.com/The-PR-Agent/pr-agent/pull/3140) | Remove dead shared rate-limit handlers |
 | BBj Language Server | [#665](https://github.com/BBx-Kitchen/bbj-language-server/pull/665) | Unify language-server logger output |
 | ClawBox | [#774](https://github.com/ID-Robots/clawbox/pull/774) | Correct model-catalog fallback behavior |
 | Web Testownik | [#323](https://github.com/Solvro/web-testownik/pull/323) | Harden maintenance recovery handling |
-| Frapp | [#1807](https://github.com/pdcarlson/Frapp/pull/1807) | Correct the Expo plist version reference |
 | Slopshop | [#21](https://github.com/fireship-dev/slopshop/pull/21) | Harden per-user rate limiting |
-| Paperclip | [#2](https://github.com/adamteale/paperclip/pull/2) | Cover run-job invocation scope resolution |
 
 > Open PRs are listed as work under upstream review; only merged PRs are presented as completed upstream contributions.
