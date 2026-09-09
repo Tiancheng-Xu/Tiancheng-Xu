@@ -38,12 +38,13 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ## Open-source contributions
 
-当前可核验的 OSS 共建：**5 merged + 19 open pull requests**（更新于 2026-09-09）。
+当前可核验的 OSS 共建：**6 merged + 18 open pull requests**（更新于 2026-09-09）。
 
 ### Merged
 
 | Project | Pull request | Contribution |
 | --- | --- | --- |
+| pnpm | [#14674](https://github.com/pnpm/pnpm/pull/14674) | List pnpm v12 in the security support policy |
 | PR-Agent | [#3142](https://github.com/The-PR-Agent/pr-agent/pull/3142) | Hide disabled commands from user-facing help output |
 | PR-Agent | [#3141](https://github.com/The-PR-Agent/pr-agent/pull/3141) | Honor GitLab `/ask_line` old-side positions |
 | PR-Agent | [#3140](https://github.com/The-PR-Agent/pr-agent/pull/3140) | Remove dead shared rate-limit handlers |
@@ -61,9 +62,8 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | RTK | [#3922](https://github.com/rtk-ai/rtk/pull/3922) | Add a compact `gitleaks` TOML filter for secret-scan output |
 | LiteLLM | [#40183](https://github.com/BerriAI/litellm/pull/40183) | Add source-backed OpenRouter metadata for `gpt-5.6-sol` |
 | Chrome DevTools MCP | [#2686](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2686) | Cover scheduled script navigation without fixed sleeps |
+| GoogleTest | [#5091](https://github.com/google/googletest/pull/5091) | Preserve forced ANSI color output when CTest captures stdout on Windows |
 | pnpm | [#14675](https://github.com/pnpm/pnpm/pull/14675) | Clarify workspace package glob semantics |
-| pnpm | [#14674](https://github.com/pnpm/pnpm/pull/14674) | List pnpm v12 in the security support policy |
-| Lightpanda | [#3440](https://github.com/lightpanda-io/browser/pull/3440) | Preserve CSS custom properties in computed styles |
 | Backstage | [#35564](https://github.com/backstage/backstage/pull/35564) | Resolve an `undici` security advisory |
 | Tabler Icons | [#1590](https://github.com/tabler/tabler-icons/pull/1590) | Preserve the SolidJS JSX source export for Vite SSR |
 | Context Mode | [#1128](https://github.com/mksglu/context-mode/pull/1128) | Fix bounded curl/wget pipeline and multiline routing |
