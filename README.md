@@ -38,12 +38,13 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ## Open-source contributions
 
-当前可核验的 OSS 共建：**6 merged + 18 open pull requests**（更新于 2026-09-09）。
+当前可核验的 OSS 共建：**7 merged + 19 open pull requests**（更新于 2026-09-10）。
 
 ### Merged
 
 | Project | Pull request | Contribution |
 | --- | --- | --- |
+| Vite | [#23235](https://github.com/vitejs/vite/pull/23235) | Explain server-only module reload behavior in SSR |
 | pnpm | [#14674](https://github.com/pnpm/pnpm/pull/14674) | List pnpm v12 in the security support policy |
 | PR-Agent | [#3142](https://github.com/The-PR-Agent/pr-agent/pull/3142) | Hide disabled commands from user-facing help output |
 | PR-Agent | [#3141](https://github.com/The-PR-Agent/pr-agent/pull/3141) | Honor GitLab `/ask_line` old-side positions |
@@ -57,21 +58,22 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | --- | --- | --- |
 | Deno | [#36794](https://github.com/denoland/deno/pull/36794) | Preserve the `--` separator before CLI entrypoints |
 | MCP Servers | [#4775](https://github.com/modelcontextprotocol/servers/pull/4775) | Emit object input schemas for the filesystem server |
-| Vite | [#23235](https://github.com/vitejs/vite/pull/23235) | Explain server-only module reload behavior in SSR |
 | RTK | [#3933](https://github.com/rtk-ai/rtk/pull/3933) | Match Ruff format routing to the first argument |
 | RTK | [#3922](https://github.com/rtk-ai/rtk/pull/3922) | Add a compact `gitleaks` TOML filter for secret-scan output |
 | LiteLLM | [#40183](https://github.com/BerriAI/litellm/pull/40183) | Add source-backed OpenRouter metadata for `gpt-5.6-sol` |
 | Chrome DevTools MCP | [#2686](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2686) | Cover scheduled script navigation without fixed sleeps |
+| GoogleTest | [#5092](https://github.com/google/googletest/pull/5092) | Avoid shadowing a parameter in `INSTANTIATE_TEST_SUITE_P` |
 | GoogleTest | [#5091](https://github.com/google/googletest/pull/5091) | Preserve forced ANSI color output when CTest captures stdout on Windows |
-| pnpm | [#14675](https://github.com/pnpm/pnpm/pull/14675) | Clarify workspace package glob semantics |
 | Backstage | [#35564](https://github.com/backstage/backstage/pull/35564) | Resolve an `undici` security advisory |
-| Tabler Icons | [#1590](https://github.com/tabler/tabler-icons/pull/1590) | Preserve the SolidJS JSX source export for Vite SSR |
 | Context Mode | [#1128](https://github.com/mksglu/context-mode/pull/1128) | Fix bounded curl/wget pipeline and multiline routing |
+| Tabler Icons | [#1590](https://github.com/tabler/tabler-icons/pull/1590) | Preserve the SolidJS JSX source export for Vite SSR |
 | Portless | [#413](https://github.com/vercel-labs/portless/pull/413) | Preserve routes when self-daemonized commands exit |
+| Quicklink | [#501](https://github.com/GoogleChromeLabs/quicklink/pull/501) | Give generated site pages unique descriptions |
 | Bitcoin Dev Kit | [#2276](https://github.com/bitcoindevkit/bdk/pull/2276) | Preserve the first floating `TxOut` and consistent `ChangeSet` semantics |
 | Google WebCrypto | [#398](https://github.com/google/webcrypto.dart/pull/398) | Extract the RSA-OAEP PKCS#8 import example |
 | Web Testownik | [#323](https://github.com/Solvro/web-testownik/pull/323) | Harden maintenance recovery handling |
 | BBj Language Server | [#665](https://github.com/BBx-Kitchen/bbj-language-server/pull/665) | Unify language-server logger output |
 | Slopshop | [#21](https://github.com/fireship-dev/slopshop/pull/21) | Harden per-user rate limiting |
+| Paperclip | [#2](https://github.com/adamteale/paperclip/pull/2) | Cover run-job invocation scope resolution |
 
 > Open PRs are listed as work under upstream review; only merged PRs are presented as completed upstream contributions.
