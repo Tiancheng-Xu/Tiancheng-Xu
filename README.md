@@ -38,7 +38,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ## Open-source contributions
 
-当前可核验的 OSS 共建：**7 merged + 19 open pull requests**（更新于 2026-09-10）。
+当前可核验的 OSS 共建：**7 merged + 20 open pull requests**（更新于 2026-09-10）。
 
 ### Merged
 
@@ -56,6 +56,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 | Project | Pull request | Contribution |
 | --- | --- | --- |
+| VS Code | [#335428](https://github.com/microsoft/vscode/pull/335428) | Use mouse event modifiers for editor drag-and-drop state |
 | Deno | [#36794](https://github.com/denoland/deno/pull/36794) | Preserve the `--` separator before CLI entrypoints |
 | MCP Servers | [#4775](https://github.com/modelcontextprotocol/servers/pull/4775) | Emit object input schemas for the filesystem server |
 | RTK | [#3933](https://github.com/rtk-ai/rtk/pull/3933) | Match Ruff format routing to the first argument |
