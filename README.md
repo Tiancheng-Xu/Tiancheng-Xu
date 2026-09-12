@@ -20,8 +20,8 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 | Project | What I built | Evidence |
 | --- | --- | --- |
-| Agent Market | **Aladdin · AI Agent 交易与任务分发平台。** 面向 Agent 众包交易，构建任务自动拆解、候选过滤与评分、人工或自动选定、多阶段分发和暂停恢复；以 LangGraph DAG、多运行时服务、PostgreSQL Checkpoint、异步队列、信誉评分与 LLM 质量评测支撑复杂任务协作。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
-| BabySteps | 完成成长任务、家长中心、纪念馆、Provider 与链上交互等产品模块，并建立 Edge SSR、水合降级和真实性能观测链路；难点是隔离身份、钱包和服务端渲染边界。 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Evidence](https://babysteps.baby2b.online/evidence/) |
+| Agent Market | **Aladdin · AI Agent 交易与任务分发平台。** Queen 将需求拆成 DAG，候选 Agent 经标签硬过滤、向量相关度与信誉评分排序后由人工或系统选定；Agent 分阶段生产，Judge 进行规则与 LLM 多维评测，不合格结果进入 Repair，最终由 Final Arbiter 汇总交付。Node / Hono、Python / LangGraph 与 Go 执行器协作，以 PostgreSQL Checkpoint、队列 / DLQ、幂等和版本冲突保护支撑暂停恢复。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
+| BabySteps | **家庭成长产品与渐进式 Web3 应用。** 覆盖成长任务、家长中心、纪念馆、Provider 与链上交互；Cloudflare Edge SSR 先返回安全摘要壳，再按 marker、路径和版本门禁精确水合身份、钱包与性能 SDK。水合不一致时执行一次性纯 CSR fallback，重点解决浏览器专属依赖、服务端渲染和身份边界之间的冲突。 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Evidence](https://babysteps.baby2b.online/evidence/) |
 
 ## Personal engineering portfolio system
 
@@ -29,12 +29,12 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 | Project | What it demonstrates | Links |
 | --- | --- | --- |
-| Personal AI Agent | **AI 智能客服与私有化模型交付。** 已完成 Qwen3-8B、LlamaFactory、QLoRA / NF4、GGUF 与 Ollama 的领域微调和离线运行；以系统设计覆盖意图识别、Qwen Embedding、知识图谱 / RAG、Tool Calling、多轮问答和低置信度转人工。 | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
-| GitHub Profile Studio | 构建本地优先的 GitHub 公开资料工作台，以统一 API 契约验证 Hono / Node 与 Go 双后端，并通过服务端白名单和 macOS 钥匙串隔离浏览器凭据。 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) · [Evidence](https://baby2b.online/evidence/github-profile-studio) |
-| Showcase Dashboard | 把项目状态、Evidence、Portfolio Sync、性能观测与受保护控制入口整合为个人工程作品系统；保持静态首屏、水合后数据和项目自有链接一致，并让未知路由返回真实 404。 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) · [Evidence](https://baby2b.online/evidence/fullstack-showcase) |
-| Portfolio Sync | 以 GitHub App Webhook、HMAC 验签与 Cloudflare Worker/KV 汇总真实项目发布清单，并用定时任务补齐事件遗漏；难点是同步状态、静态首屏与项目自有 Evidence 的一致性。 | [Live](https://portfolio-sync.baby2b.online/) · [Evidence](https://baby2b.online/evidence/portfolio-sync) |
-| 性能观测与成本控制 | 将浏览器真实性能样本、临时 AWS 聚合链路、成本控制与零残留清理纳入同一受保护控制面；难点是同时守住样本可信度、最小权限和预算边界。 | [Control](https://baby2b.online/performance-control/babysteps) · [Evidence](https://baby2b.online/evidence/performance-observability-control) |
-| TC Flow 2.1 | 把需求、实现、审查、修复和发布拆成可恢复的 N1-N8 流程，沉淀本地与远端 Gate；难点是让复杂任务在失败、续跑和多人协作时仍保持可审查状态。 | [Repository](https://github.com/Tiancheng-Xu/personal-skills/tree/main/skills/tc-flow) · [Evidence](https://baby2b.online/evidence/tc-workflow) |
+| Personal AI Agent | **AI 智能客服与私有化模型交付。** 面向售前咨询、售后处理和技术问答，使用 LlamaFactory 对 Qwen3-8B 做 NF4 QLoRA 领域微调，完成 Adapter 合并、GGUF 量化与 Ollama 私有化运行；以 BERT / 规则完成意图路由，经 Qwen Embedding、知识图谱 / RAG 检索后生成回答，Tool Calling 连接价格、退换与业务规则，多轮上下文配合低置信度、敏感问题和无答案场景转人工。 | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
+| GitHub Profile Studio | **本地优先的 GitHub 公开资料工作台。** React / TanStack 前端共享统一 API 契约，可切换 Hono / Node 或 Go 后端，SQLite / Drizzle 负责草稿与幂等写入；访问令牌只留在服务端和 macOS 钥匙串，浏览器只编辑白名单字段，解决双运行时契约一致性与凭据隔离问题。 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) · [Evidence](https://baby2b.online/evidence/github-profile-studio) |
+| Showcase Dashboard | **静态优先的个人工程作品系统。** 人工审核索引定义项目身份与核心叙事，GitHub App / Cloudflare Worker 动态补充发布清单；SSG 首屏、水合数据、按需 Babylon / Archify、项目深链、旧域名重定向和真实 404 共同解决性能、内容一致性与重型交互边界。 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) · [Evidence](https://baby2b.online/evidence/fullstack-showcase) |
+| Portfolio Sync | **GitHub App 驱动的作品集同步系统。** 仅收录声明 Baby2B 发布清单和 Evidence 地址的仓库；Webhook 经 HMAC 验签后即时更新，短期只读 Installation Token 拉取内容，Cloudflare Worker / KV 聚合结果，30 分钟定时刷新补齐事件遗漏，主站保留人工审核静态回退。 | [Live](https://portfolio-sync.baby2b.online/) · [Evidence](https://baby2b.online/evidence/portfolio-sync) |
+| 性能观测与成本控制 | **短生命周期性能观测与成本控制面。** 浏览器采集 Core Web Vitals 与资源耗时，受保护入口通过固定工作流启停聚合链路，并用 nonce、幂等键、HMAC 回调和不可变快照约束执行；停止后封入口、清理项目资源并保留历史结果。AWS 当前停用，恢复工作保留为 TODO。 | [Control](https://baby2b.online/performance-control/babysteps) · [Evidence](https://baby2b.online/evidence/performance-observability-control) |
+| TC Flow 2.1 | **可恢复的 Feature 交付工作流。** Contract / Context 明确范围与验收，N1-N8 串联实现、审查、P0 / PII / Fallback / Human Gate 和 Feature QA；Checkpoint、事件流与 RunResult 持久化过程状态，使长任务在失败、续跑和多人协作时仍能回到正确节点。 | [Repository](https://github.com/Tiancheng-Xu/personal-skills/tree/main/skills/tc-flow) · [Evidence](https://baby2b.online/evidence/tc-workflow) |
 
 > 部分项目源码为私有仓库。公开页面只展示获准公开的产品与证据，不暴露凭据、私有数据集或模型权重。
 
