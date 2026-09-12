@@ -1,0 +1,7 @@
+{
+  "goal": "Synchronize GitHub Profile project narratives with the local Dashboard capability interview presentation.",
+  "context": {"schemaVersion": 1, "runId": "dashboard-capability-interview-20260912-a653dda5", "feature": "dashboard-capability-interview", "repositoryRole": "profile-documentation", "allowedWritePaths": ["README.md", ".tc-flow/"], "nonGoals": ["push", "publication", "global Evidence policy changes"]},
+  "allowedTools": ["apply_patch", "exec_command"],
+  "acceptanceCriteria": ["Agent Market and Personal AI Agent descriptions match the Dashboard narrative", "Existing production, repository, and Evidence links remain available", "No push or publication occurs"],
+  "contractHash": "a653dda5de6a35a30c6323468b708f479c777400528c77bc99396972aa80f8a4"
+}

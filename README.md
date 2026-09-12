@@ -20,10 +20,8 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 | Project | What I built | Evidence |
 | --- | --- | --- |
-| Agent Market | 面向 Sepolia 的可验证 AI Agent 任务市场，覆盖结构化编排、任务协作、链上状态与交付证据 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) |
-| BabySteps | React、Wagmi 与 Solidity 构建的家庭成长 DApp，包含 Edge SSR、水合保护和真实性能观测 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) |
-| Personal AI Agent | Qwen3-8B QLoRA 训练、冻结集评估、GGUF 量化与本地 Ollama 交付 | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
-| TC Flow 2.1 | 将需求、实现、审查、修复、验证和发布组织为可恢复、可审查的工程工作流 | [Portfolio](https://baby2b.online/dashboard/) |
+| Agent Market | **Aladdin · AI Agent 交易与任务分发平台。** 面向 Agent 众包交易，构建任务自动拆解、候选过滤与评分、人工或自动选定、多阶段分发和暂停恢复；以 LangGraph DAG、多运行时服务、PostgreSQL Checkpoint、异步队列、信誉评分与 LLM 质量评测支撑复杂任务协作。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
+| BabySteps | 完成成长任务、家长中心、纪念馆、Provider 与链上交互等产品模块，并建立 Edge SSR、水合降级和真实性能观测链路；难点是隔离身份、钱包和服务端渲染边界。 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Evidence](https://babysteps.baby2b.online/evidence/) |
 
 ## Personal engineering portfolio system
 
@@ -31,8 +29,12 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 | Project | What it demonstrates | Links |
 | --- | --- | --- |
-| Showcase Dashboard | 汇总项目事实、Evidence、Portfolio Sync、性能观测与受保护控制入口，保持静态首屏和动态数据的一致性 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) |
-| GitHub Profile Studio | 本地优先的 GitHub 公开资料工作台，使用 React、Hono / Node、Go、SQLite 与统一 API 契约，并隔离浏览器凭据 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) |
+| Personal AI Agent | **AI 智能客服与私有化模型交付。** 已完成 Qwen3-8B、LlamaFactory、QLoRA / NF4、GGUF 与 Ollama 的领域微调和离线运行；以系统设计覆盖意图识别、Qwen Embedding、知识图谱 / RAG、Tool Calling、多轮问答和低置信度转人工。 | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
+| GitHub Profile Studio | 构建本地优先的 GitHub 公开资料工作台，以统一 API 契约验证 Hono / Node 与 Go 双后端，并通过服务端白名单和 macOS 钥匙串隔离浏览器凭据。 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) · [Evidence](https://baby2b.online/evidence/github-profile-studio) |
+| Showcase Dashboard | 把项目状态、Evidence、Portfolio Sync、性能观测与受保护控制入口整合为个人工程作品系统；保持静态首屏、水合后数据和项目自有链接一致，并让未知路由返回真实 404。 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) · [Evidence](https://baby2b.online/evidence/fullstack-showcase) |
+| Portfolio Sync | 以 GitHub App Webhook、HMAC 验签与 Cloudflare Worker/KV 汇总真实项目发布清单，并用定时任务补齐事件遗漏；难点是同步状态、静态首屏与项目自有 Evidence 的一致性。 | [Live](https://portfolio-sync.baby2b.online/) · [Evidence](https://baby2b.online/evidence/portfolio-sync) |
+| 性能观测与成本控制 | 将浏览器真实性能样本、临时 AWS 聚合链路、成本控制与零残留清理纳入同一受保护控制面；难点是同时守住样本可信度、最小权限和预算边界。 | [Control](https://baby2b.online/performance-control/babysteps) · [Evidence](https://baby2b.online/evidence/performance-observability-control) |
+| TC Flow 2.1 | 把需求、实现、审查、修复和发布拆成可恢复的 N1-N8 流程，沉淀本地与远端 Gate；难点是让复杂任务在失败、续跑和多人协作时仍保持可审查状态。 | [Repository](https://github.com/Tiancheng-Xu/personal-skills/tree/main/skills/tc-flow) · [Evidence](https://baby2b.online/evidence/tc-workflow) |
 
 > 部分项目源码为私有仓库。公开页面只展示获准公开的产品与证据，不暴露凭据、私有数据集或模型权重。
 
