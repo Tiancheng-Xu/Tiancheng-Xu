@@ -6,18 +6,18 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ## Professional experience
 
-### 2020–2023 · Traffic dashboard FDE engineering · Ningbo
-
-- 驻场宁波市交警局，参与交警大屏 FDE 项目建设。
-- 负责前台展示应用与中台能力的工程实现、现场交付和持续迭代。
-
 ### 2023–2026 · Government low-code / FDE engineering · Ningbo
 
-- 驻场服务宁波市公安局科信、特警等相关业务部门，参与低代码与 FDE 项目建设。
+- 驻场服务宁波市公安局科信、特警等相关业务部门，参与低零代码与 FDE 项目建设。
 - 负责前台业务应用与中台能力的架构实现，以及相关模块的工程交付和持续迭代。
 - 关注模块边界、系统集成、可维护性与交付质量，用可验证结果而不是技术名词描述工作。
 
 > 政企项目仅公开职责与能力范围，不公开内部系统名称、数据、接口、部署拓扑或安全架构。
+
+### 2020–2023 · Traffic dashboard FDE engineering · Ningbo
+
+- 驻场宁波市交警局，参与交警大屏 FDE 项目建设。
+- 负责前台展示应用与中台能力的工程实现、现场交付和持续迭代。
 
 ## 2026 part-time project work · Beijing
 
