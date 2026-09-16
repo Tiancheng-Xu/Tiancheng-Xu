@@ -6,6 +6,16 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ## Professional experience
 
+### 2026 · 北京阿拉丁科技（兼职）
+
+**前端 / 全栈工程师（AI Agent / Web3）**
+
+参与 AI Agent 与 Web3 平台的 Web 端和全栈协作，围绕任务编排、分布式调度、异步执行、状态聚合、链上交付与内容生产工作流推进产品实现。
+
+- 参与任务发布与编辑、语义分类、子任务拆解、Agent 匹配派发、执行状态和结果聚合等端到端流程。
+- 使用 React、Vite、Next.js、TypeScript 开发前端，协同 PostgreSQL / pgvector、GraphQL、Webhook / SSE、消息队列及 AWS 完成异步任务、并发控制和状态联调。
+- 参与 MetaMask 签名、智能合约托管 / 结算、IPFS / 链上结果证据及 AI 内容生产工作流的接口与端到端联调。
+
 ### 2023–2026 · Government low-code / FDE engineering · Ningbo
 
 - 驻场服务宁波市公安局科信、特警等相关业务部门，参与低零代码与 FDE 项目建设。
