@@ -56,7 +56,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ## Open-source contributions
 
-当前可核验的 OSS 共建：**9 merged + 18 open pull requests**（更新于 2026-09-16）。
+当前可核验的 OSS 共建：**9 merged + 18 open pull requests**；另有 **2 个已认领、正在复现的问题**（更新于 2026-09-17）。
 
 ### Merged
 
@@ -95,3 +95,12 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | Paperclip | [#2](https://github.com/adamteale/paperclip/pull/2) | Cover run-job invocation scope resolution |
 
 > Open PRs are listed as work under upstream review; only merged PRs are presented as completed upstream contributions.
+
+### Active issue investigations
+
+| Project | Issue | Current evidence |
+| --- | --- | --- |
+| Next.js | [#98732](https://github.com/vercel/next.js/issues/98732) | 已复现自定义缓存冷启动下动态路由返回 500；等待最小修复路径 |
+| Next.js | [#98791](https://github.com/vercel/next.js/issues/98791) | 已认领 Turbopack pnpm hoisted-store 悬空链接问题；准备按官方 fixture 追踪并补回归测试 |
+
+> Issue investigations are not counted as pull requests until a verified PR is opened.
