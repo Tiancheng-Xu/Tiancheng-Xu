@@ -102,5 +102,6 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | --- | --- | --- |
 | Next.js | [#98732](https://github.com/vercel/next.js/issues/98732) | 已复现自定义缓存冷启动下动态路由返回 500；等待最小修复路径 |
 | Next.js | [#98791](https://github.com/vercel/next.js/issues/98791) | 已认领 Turbopack pnpm hoisted-store 悬空链接问题；准备按官方 fixture 追踪并补回归测试 |
+| Deno | [#36858](https://github.com/denoland/deno/issues/36858) | 已认领 UDP `reusePort` 缺失问题；准备核对 Linux socket 语义与跨平台行为 |
 
 > Issue investigations are not counted as pull requests until a verified PR is opened.
