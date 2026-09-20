@@ -56,7 +56,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ## Open-source contributions
 
-当前可核验的 OSS 共建：**9 merged + 18 open pull requests**；另有 **2 个已认领、正在复现的问题**（更新于 2026-09-17）。
+当前展示 GitHub stars 至少 1,000 的上游仓库共建：**5 merged + 14 open pull requests**（仓库星数核验于 2026-09-20）。低于门槛的历史贡献保留在内部记录，不列入此公开列表。
 
 ### Merged
 
@@ -67,10 +67,6 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | PR-Agent | [#3142](https://github.com/The-PR-Agent/pr-agent/pull/3142) | Hide disabled commands from user-facing help output |
 | PR-Agent | [#3141](https://github.com/The-PR-Agent/pr-agent/pull/3141) | Honor GitLab `/ask_line` old-side positions |
 | PR-Agent | [#3140](https://github.com/The-PR-Agent/pr-agent/pull/3140) | Remove dead shared rate-limit handlers |
-| ClawBox | [#774](https://github.com/ID-Robots/clawbox/pull/774) | Correct model-catalog fallback behavior |
-| PySNMP MIBs | [#361](https://github.com/pysnmp/mibs/pull/361) | Correct the TCPIPX unspecified table row type |
-| Web Testownik | [#323](https://github.com/Solvro/web-testownik/pull/323) | Harden maintenance recovery handling |
-| BBj Language Server | [#665](https://github.com/BBx-Kitchen/bbj-language-server/pull/665) | Unify language-server logger output |
 
 ### Open pull requests
 
@@ -89,10 +85,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | RTK | [#3933](https://github.com/rtk-ai/rtk/pull/3933) | Match Ruff format routing to the first argument |
 | Chrome DevTools MCP | [#2686](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2686) | Cover scheduled script navigation without fixed sleeps |
 | Context Mode | [#1128](https://github.com/mksglu/context-mode/pull/1128) | Fix bounded curl/wget pipeline and multiline routing |
-| Tabler Icons | [#1590](https://github.com/tabler/tabler-icons/pull/1590) | Preserve the SolidJS JSX source export for Vite SSR |
 | Portless | [#413](https://github.com/vercel-labs/portless/pull/413) | Preserve routes when self-daemonized commands exit |
-| Google WebCrypto | [#398](https://github.com/google/webcrypto.dart/pull/398) | Extract the RSA-OAEP PKCS#8 import example |
-| Paperclip | [#2](https://github.com/adamteale/paperclip/pull/2) | Cover run-job invocation scope resolution |
 
 > Open PRs are listed as work under upstream review; only merged PRs are presented as completed upstream contributions.
 
