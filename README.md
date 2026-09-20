@@ -56,7 +56,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ## Open-source contributions
 
-当前展示 GitHub stars 至少 1,000 的上游仓库共建：**5 merged + 14 open pull requests**（仓库星数核验于 2026-09-20）。低于门槛的历史贡献保留在内部记录，不列入此公开列表。
+当前展示 GitHub stars 至少 1,000 的上游仓库共建：**6 merged + 15 open pull requests**（仓库星数核验于 2026-09-20）。低于门槛的历史贡献保留在内部记录，不列入此公开列表。
 
 ### Merged
 
@@ -64,6 +64,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | --- | --- | --- |
 | Vite | [#23235](https://github.com/vitejs/vite/pull/23235) | Explain server-only module reload behavior in SSR |
 | pnpm | [#14674](https://github.com/pnpm/pnpm/pull/14674) | List pnpm v12 in the security support policy |
+| Tabler Icons | [#1590](https://github.com/tabler/tabler-icons/pull/1590) | Preserve the SolidJS JSX source export for Vite SSR |
 | PR-Agent | [#3142](https://github.com/The-PR-Agent/pr-agent/pull/3142) | Hide disabled commands from user-facing help output |
 | PR-Agent | [#3141](https://github.com/The-PR-Agent/pr-agent/pull/3141) | Honor GitLab `/ask_line` old-side positions |
 | PR-Agent | [#3140](https://github.com/The-PR-Agent/pr-agent/pull/3140) | Remove dead shared rate-limit handlers |
@@ -83,6 +84,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | GoogleTest | [#5091](https://github.com/google/googletest/pull/5091) | Preserve forced ANSI colors for captured Windows stdout |
 | MCP Servers | [#4775](https://github.com/modelcontextprotocol/servers/pull/4775) | Emit object input schemas for the filesystem server |
 | RTK | [#3933](https://github.com/rtk-ai/rtk/pull/3933) | Match Ruff format routing to the first argument |
+| RTK | [#3922](https://github.com/rtk-ai/rtk/pull/3922) | Add a gitleaks TOML filter |
 | Chrome DevTools MCP | [#2686](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2686) | Cover scheduled script navigation without fixed sleeps |
 | Context Mode | [#1128](https://github.com/mksglu/context-mode/pull/1128) | Fix bounded curl/wget pipeline and multiline routing |
 | Portless | [#413](https://github.com/vercel-labs/portless/pull/413) | Preserve routes when self-daemonized commands exit |
@@ -94,7 +96,8 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | Project | Issue | Current evidence |
 | --- | --- | --- |
 | Next.js | [#98732](https://github.com/vercel/next.js/issues/98732) | 已复现自定义缓存冷启动下动态路由返回 500；等待最小修复路径 |
-| Next.js | [#98791](https://github.com/vercel/next.js/issues/98791) | 已认领 Turbopack pnpm hoisted-store 悬空链接问题；准备按官方 fixture 追踪并补回归测试 |
+| Next.js | [#98791](https://github.com/vercel/next.js/issues/98791) | 已有上游竞争实现 [#98798](https://github.com/vercel/next.js/pull/98798)；暂停并行修复，观察 review 结果 |
 | Deno | [#36858](https://github.com/denoland/deno/issues/36858) | 已认领 UDP `reusePort` 缺失问题；准备核对 Linux socket 语义与跨平台行为 |
+| Deno | [#36870](https://github.com/denoland/deno/issues/36870) | 已留言调查 Desktop HMR 对传递 npm 依赖的解析；尚无 PR |
 
 > Issue investigations are not counted as pull requests until a verified PR is opened.
