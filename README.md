@@ -4,6 +4,8 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 全栈工程师。2023–2026 年参与政企低代码与 FDE 项目，负责前台应用与中台能力的架构实现；当前专注 AI Agent、Web3、Cloud / Edge 与可验证工程交付。
 
+面向生产可靠性的 AI Agent 全栈工程师，关注模型路由、工具调用、状态恢复、评测与成本治理。
+
 ## Professional experience
 
 ### 2026 · 北京阿拉丁科技（兼职）
@@ -35,7 +37,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 | Project | What I built | Evidence |
 | --- | --- | --- |
-| Agent Market | **Aladdin · AI Agent 交易与任务分发平台。** Queen 将需求拆成 DAG，候选 Agent 经标签硬过滤、向量相关度与信誉评分排序后由人工或系统选定；Agent 分阶段生产，Judge 进行规则与 LLM 多维评测，不合格结果进入 Repair，最终由 Final Arbiter 汇总交付。Node / Hono、Python / LangGraph 与 Go 执行器协作，以 PostgreSQL Checkpoint、队列 / DLQ、幂等和版本冲突保护支撑暂停恢复。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
+| Agent Market | **Aladdin · AI Agent 交易与任务分发平台。** Queen 将需求拆成 DAG，候选 Agent 经标签硬过滤、向量相关度与信誉评分排序后由人工或系统选定；Agent 分阶段生产，Judge 进行规则与 LLM 多维评测，不合格结果进入 Repair，最终由 Final Arbiter 汇总交付。将模型能力与确定性 Gate 分层，通过 Checkpoint、幂等、人工审批与 Evidence 约束高风险任务；V1 保留已验证生产证据，V2 多模型路由与部分外部集成仅按代码 / 本地验证描述。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
 | Aladdin Web3 Agent | 参与 AI Agent 分布式任务调度与 Web3 交付平台的 Web 端和全栈协作。覆盖 Job 编辑发布、语义分类与任务拆解、Agent 自动匹配与派单、异步反馈、结果聚合、合约托管结算，以及将用户创意拆解为剧本、角色 / 场景 / 道具、分镜、视频片段与最终合成的 AI 内容生产链路。 | [Portfolio](https://baby2b.online/dashboard/) |
 | BabySteps | **家庭成长产品与渐进式 Web3 应用。** 覆盖成长任务、家长中心、纪念馆、Provider 与链上交互；Cloudflare Edge SSR 先返回安全摘要壳，再按 marker、路径和版本门禁精确水合身份、钱包与性能 SDK。水合不一致时执行一次性纯 CSR fallback，重点解决浏览器专属依赖、服务端渲染和身份边界之间的冲突。 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Evidence](https://babysteps.baby2b.online/evidence/) |
 
@@ -45,7 +47,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 | Project | What it demonstrates | Links |
 | --- | --- | --- |
-| Personal AI Agent | **AI 智能客服与私有化模型交付。** 面向售前咨询、售后处理和技术问答，使用 LlamaFactory 对 Qwen3-8B 做 NF4 QLoRA 领域微调，完成 Adapter 合并、GGUF 量化与 Ollama 私有化运行；以 BERT / 规则完成意图路由，经 Qwen Embedding、知识图谱 / RAG 检索后生成回答，Tool Calling 连接价格、退换与业务规则，多轮上下文配合低置信度、敏感问题和无答案场景转人工。 | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
+| Personal AI Agent | **AI 智能客服与私有化模型交付。** 使用 LlamaFactory 对 Qwen3-8B 做 NF4 QLoRA 领域微调，完成 Adapter 合并、GGUF 量化与 Ollama 私有化运行；客服路由、知识图谱 / RAG、Tool Calling 与转人工保留为系统方案。使用同一 49 条冻结集评测，v2 bigram F1 为 0.2146，v3 为 0.2129，因此保留 v2、拒绝 v3 晋级。 | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
 | GitHub Profile Studio | **本地优先的 GitHub 公开资料工作台。** React / TanStack 前端共享统一 API 契约，可切换 Hono / Node 或 Go 后端，SQLite / Drizzle 负责草稿与幂等写入；访问令牌只留在服务端和 macOS 钥匙串，浏览器只编辑白名单字段，解决双运行时契约一致性与凭据隔离问题。 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) · [Evidence](https://baby2b.online/evidence/github-profile-studio) |
 | Showcase Dashboard | **静态优先的个人工程作品系统。** 人工审核索引定义项目身份与核心叙事，GitHub App / Cloudflare Worker 动态补充发布清单；SSG 首屏、水合数据、按需 Babylon / Archify、项目深链、旧域名重定向和真实 404 共同解决性能、内容一致性与重型交互边界。 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) · [Evidence](https://baby2b.online/evidence/fullstack-showcase) |
 | Portfolio Sync | **GitHub App 驱动的作品集同步系统。** 仅收录声明 Baby2B 发布清单和 Evidence 地址的仓库；Webhook 经 HMAC 验签后即时更新，短期只读 Installation Token 拉取内容，Cloudflare Worker / KV 聚合结果，30 分钟定时刷新补齐事件遗漏，主站保留人工审核静态回退。 | [Live](https://portfolio-sync.baby2b.online/) · [Evidence](https://baby2b.online/evidence/portfolio-sync) |
