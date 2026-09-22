@@ -1,10 +1,17 @@
 # Hi, I'm Tiancheng Xu
 
-Full-stack engineer with experience in government low-code and FDE delivery. I build front-office and middle-platform applications, AI Agent and Web3 products, and evidence-backed engineering workflows.
+Full-stack engineer with experience in traffic command dashboards and government low/no-code FDE delivery. I build front-office and middle-platform applications, AI Agent and Web3 products, and evidence-backed engineering workflows.
 
-全栈工程师。2023–2026 年参与政企低代码与 FDE 项目，负责前台应用与中台能力的架构实现；当前专注 AI Agent、Web3、Cloud / Edge 与可验证工程交付。
+全栈工程师，具备交警大屏与政企低零代码项目的 FDE 交付经验，负责前台应用与中台能力的工程实现；当前专注 AI Agent、Web3、Cloud / Edge 与可验证工程交付。
 
 面向生产可靠性的 AI Agent 全栈工程师，关注模型路由、工具调用、状态恢复、评测与成本治理。
+
+## Core strengths
+
+- 10 年软件开发经验，覆盖前端架构、复杂政企业务交付与多运行时全栈协作，重视系统鲁棒性、可维护性、可恢复性与可观测性。
+- 将模型判断与确定性规则分层，以 Checkpoint、幂等、人工审批、Evidence 和结构化评测约束高风险 Agent 任务。
+- 按资产权限、事实基线、可观测性、回滚演练与 SLO / Runbook 分阶段接管复杂系统；外部副作用未知时进入 `uncertain / manual_review` 对账，模型服务不可用时切换备用 Provider、本地 Ollama 或人工兜底。
+- 熟悉 TypeScript、JavaScript、React、Vue，具备 Python、Node.js、FastAPI、PostgreSQL、WebSocket 与 AWS Serverless 开发实践。
 
 ## Professional experience
 
@@ -20,16 +27,15 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ### 2023–2026 · Government low-code / FDE engineering · Ningbo
 
-- 驻场服务宁波市公安局科信、特警等相关业务部门，参与低零代码与 FDE 项目建设。
-- 负责前台业务应用与中台能力的架构实现，以及相关模块的工程交付和持续迭代。
-- 关注模块边界、系统集成、可维护性与交付质量，用可验证结果而不是技术名词描述工作。
-
-> 政企项目仅公开职责与能力范围，不公开内部系统名称、数据、接口、部署拓扑或安全架构。
+- 驻场服务宁波市公安局科信、特警等相关业务部门，参与低零代码与 FDE 项目建设，围绕业务需求梳理、模块划分、组件复用、系统集成和状态联动推进前台应用与中台能力落地。
+- 与市局、分局科信部门及派出所保持业务沟通，协调需求变更、联调验收与持续迭代。
+- 在连续交付中由页面实现拓展至前中台协作、模块边界设计和问题闭环，对系统鲁棒性、可维护性与交付质量形成更全面、深入的理解。
 
 ### 2020–2023 · Traffic dashboard FDE engineering · Ningbo
 
 - 驻场宁波市交警局，参与交警大屏 FDE 项目建设。
-- 负责前台展示应用与中台能力的工程实现、现场交付和持续迭代。
+- 负责可视化展示应用与中台能力的工程实现，围绕模块复用、数据呈现、交互状态联动和页面性能开展开发与联调。
+- 结合现场业务反馈定位问题、推进需求落地与验收交付，并持续改进大屏运行的稳定性和可维护性。
 
 ## 2026 part-time project work · Beijing
 
@@ -60,7 +66,7 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 
 ## Open-source contributions
 
-当前展示 GitHub stars 至少 1,000 的上游仓库共建：**6 merged + 15 open pull requests**（仓库星数核验于 2026-09-20）。低于门槛的历史贡献保留在内部记录，不列入此公开列表。
+当前展示 GitHub stars 至少 1,000 的上游仓库共建：**6 merged + 15 open pull requests**（仓库星数核验于 2026-09-21）。低于门槛的历史贡献保留在内部记录，不列入此公开列表。
 
 ### Merged
 
@@ -89,7 +95,8 @@ Full-stack engineer with experience in government low-code and FDE delivery. I b
 | MCP Servers | [#4775](https://github.com/modelcontextprotocol/servers/pull/4775) | Emit object input schemas for the filesystem server |
 | RTK | [#3933](https://github.com/rtk-ai/rtk/pull/3933) | Match Ruff format routing to the first argument |
 | RTK | [#3922](https://github.com/rtk-ai/rtk/pull/3922) | Add a gitleaks TOML filter |
-| Chrome DevTools MCP | [#2686](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2686) | Cover scheduled script navigation without fixed sleeps |
+| Project NOMAD | [#1358](https://github.com/Crosstalk-Solutions/project-nomad/pull/1358) | Fix Night Ops WCAG contrast across base, hover, 80% hover, and group-hover foreground variants without regressing white text on green buttons |
+| wagmi | [#5250](https://github.com/wevm/wagmi/pull/5250) | Preserve connector compatibility and forward `dataSuffix` from the default client |
 | Context Mode | [#1128](https://github.com/mksglu/context-mode/pull/1128) | Fix bounded curl/wget pipeline and multiline routing |
 | Portless | [#413](https://github.com/vercel-labs/portless/pull/413) | Preserve routes when self-daemonized commands exit |
 
