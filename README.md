@@ -1,8 +1,8 @@
 # Hi, I'm Tiancheng Xu
 
-Full-stack engineer with experience in traffic command dashboards and government low/no-code FDE delivery. I build front-office and middle-platform applications, AI Agent and Web3 products, and evidence-backed engineering workflows.
+Full-stack engineer with 8 years of software development experience across traffic command dashboards and government low/no-code FDE delivery. I build front-office and middle-platform applications, AI Agent and Web3 products, and evidence-backed engineering workflows.
 
-全栈工程师，具备交警大屏与政企低零代码项目的 FDE 交付经验，负责前台应用与中台能力的工程实现；当前专注 AI Agent、Web3、Cloud / Edge 与可验证工程交付。
+拥有 8 年软件开发经验的全栈工程师，具备交警大屏与政企低零代码项目的 FDE 交付经验，负责前台应用与中台能力的工程实现；当前专注 AI Agent、Web3、Cloud / Edge 与可验证工程交付。
 
 面向生产可靠性的 AI Agent 全栈工程师，关注模型路由、工具调用、状态恢复、评测与成本治理。
 
@@ -12,6 +12,7 @@ Full-stack engineer with experience in traffic command dashboards and government
 - 将模型判断与确定性规则分层，以 Checkpoint、幂等、人工审批、Evidence 和结构化评测约束高风险 Agent 任务。
 - 按资产权限、事实基线、可观测性、回滚演练与 SLO / Runbook 分阶段接管复杂系统；外部副作用未知时进入 `uncertain / manual_review` 对账，模型服务不可用时切换备用 Provider、本地 Ollama 或人工兜底。
 - 熟悉 TypeScript、JavaScript、React、Vue，具备 Python、Node.js、FastAPI、PostgreSQL、WebSocket 与 AWS Serverless 开发实践。
+- 熟悉函数式编程中的纯函数、不可变数据、函数组合与高阶函数，并将其用于状态建模和复杂流程拆解；具备计算机系统基础，理解从编译、链接、装载到运行的程序生命周期，了解 DLL（Dynamic Linking Library）动态链接库、ELF、Section / Segment、.text / .data / .bss、符号重定位，以及 GOT（Global Offset Table）、PLT（Procedure Linkage Table）与库打桩（library interposition / function wrapping）等机制。
 
 ## Professional experience
 
@@ -22,7 +23,7 @@ Full-stack engineer with experience in traffic command dashboards and government
 参与 AI Agent 与 Web3 平台的全栈工程协作，围绕任务编排、分布式调度、异步执行、状态聚合、链上交付与内容生产工作流推进产品实现。
 
 - 参与任务发布与编辑、语义分类、子任务拆解、Agent 匹配派发、执行状态和结果聚合等端到端流程。
-- 参与 React、Vite、Next.js、TypeScript 应用工程协作，协同 PostgreSQL / pgvector、GraphQL、Webhook / SSE、消息队列及 AWS 完成异步任务、并发控制和状态联调。
+- 协同 PostgreSQL / pgvector、GraphQL、Webhook / SSE、消息队列及 AWS 完成系统联调，推进异步任务、并发控制和状态流转。
 - 参与 MetaMask 签名、智能合约托管 / 结算、IPFS / 链上结果证据及 AI 内容生产工作流的接口与端到端联调。
 
 ### 2023–2026 · Government low-code / FDE engineering · Ningbo
@@ -43,7 +44,7 @@ Full-stack engineer with experience in traffic command dashboards and government
 
 | Project | What I built | Evidence |
 | --- | --- | --- |
-| Agent Market | **AI Agent 交易与任务分发平台。** Queen 将需求拆成 DAG，候选 Agent 经标签硬过滤、向量相关度与信誉评分排序后由人工或系统选定；Agent 分阶段生产，Judge 进行规则与 LLM 多维评测，不合格结果进入 Repair，最终由 Final Arbiter 汇总交付。将模型能力与确定性 Gate 分层，通过 Checkpoint、幂等、人工审批与 Evidence 约束高风险任务；V1 保留已验证生产证据。Jev + Laya 双影子扩展是本地未合并/未发布代码：确定性基线立即返回并保持业务决策权，`calibrated: false`；Node 22 Agent Runner 为 199 passed / 8 skipped，离线模型冷启动和冻结标注评估待验。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
+| Agent Market | **AI Agent 交易与任务分发平台。** Queen 将需求拆成 DAG，候选 Agent 经标签硬过滤、向量相关度与信誉评分排序后由人工或系统选定；Agent 分阶段生产，Judge 进行规则与 LLM 多维评测，不合格结果进入 Repair，最终由 Final Arbiter 汇总交付。将模型能力与确定性 Gate 分层，通过 Checkpoint、幂等、人工审批与 Evidence 约束高风险任务；V1 保留已验证生产证据。Jev + Laya 双影子扩展仍未合并/发布：确定性基线立即返回并保持业务决策权，`calibrated: false`；Node 22 Agent Runner 为 203 passed / 8 skipped，离线模型冷启动和冻结标注评估待验。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
 | Aladdin Web3 Agent | 参与 AI Agent 分布式任务调度与 Web3 交付平台的全栈工程协作。覆盖 Job 编辑发布、语义分类与任务拆解、Agent 自动匹配与派单、异步反馈、结果聚合、合约托管结算，以及将用户创意拆解为剧本、角色 / 场景 / 道具、分镜、视频片段与最终合成的 AI 内容生产链路。 | [Portfolio](https://baby2b.online/dashboard/) |
 | BabySteps | **家庭成长产品与渐进式 Web3 应用。** 覆盖成长任务、家长中心、纪念馆、Provider 与链上交互；Cloudflare Edge SSR 先返回安全摘要壳，再按 marker、路径和版本门禁精确水合身份、钱包与性能 SDK。水合不一致时执行一次性纯 CSR fallback，重点解决浏览器专属依赖、服务端渲染和身份边界之间的冲突。 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Evidence](https://babysteps.baby2b.online/evidence/) |
 
@@ -66,7 +67,7 @@ Full-stack engineer with experience in traffic command dashboards and government
 
 ## Open-source contributions
 
-当前展示 GitHub stars 至少 1,000 的上游仓库共建：**6 merged + 15 open pull requests**（仓库星数核验于 2026-09-21）。低于门槛的历史贡献保留在内部记录，不列入此公开列表。
+当前展示 14 个 GitHub stars 至少 1,000 的上游仓库共建：**7 merged + 15 open pull requests**（共 22 项，仓库星数核验于 2026-09-26）。低于门槛的历史贡献保留在内部记录，不列入此公开列表。
 
 ### Merged
 
@@ -75,6 +76,7 @@ Full-stack engineer with experience in traffic command dashboards and government
 | Vite | [#23235](https://github.com/vitejs/vite/pull/23235) | Explain server-only module reload behavior in SSR |
 | pnpm | [#14674](https://github.com/pnpm/pnpm/pull/14674) | List pnpm v12 in the security support policy |
 | Tabler Icons | [#1590](https://github.com/tabler/tabler-icons/pull/1590) | Preserve the SolidJS JSX source export for Vite SSR |
+| Project NOMAD | [#1358](https://github.com/Crosstalk-Solutions/project-nomad/pull/1358) | Merged to `dev`: fix Night Ops WCAG contrast across base, hover, 80% hover, and group-hover foreground variants without regressing white text on green buttons |
 | PR-Agent | [#3142](https://github.com/The-PR-Agent/pr-agent/pull/3142) | Hide disabled commands from user-facing help output |
 | PR-Agent | [#3141](https://github.com/The-PR-Agent/pr-agent/pull/3141) | Honor GitLab `/ask_line` old-side positions |
 | PR-Agent | [#3140](https://github.com/The-PR-Agent/pr-agent/pull/3140) | Remove dead shared rate-limit handlers |
@@ -95,7 +97,6 @@ Full-stack engineer with experience in traffic command dashboards and government
 | MCP Servers | [#4775](https://github.com/modelcontextprotocol/servers/pull/4775) | Emit object input schemas for the filesystem server |
 | RTK | [#3933](https://github.com/rtk-ai/rtk/pull/3933) | Match Ruff format routing to the first argument |
 | RTK | [#3922](https://github.com/rtk-ai/rtk/pull/3922) | Add a gitleaks TOML filter |
-| Project NOMAD | [#1358](https://github.com/Crosstalk-Solutions/project-nomad/pull/1358) | Fix Night Ops WCAG contrast across base, hover, 80% hover, and group-hover foreground variants without regressing white text on green buttons |
 | wagmi | [#5250](https://github.com/wevm/wagmi/pull/5250) | Preserve connector compatibility and forward `dataSuffix` from the default client |
 | Context Mode | [#1128](https://github.com/mksglu/context-mode/pull/1128) | Fix bounded curl/wget pipeline and multiline routing |
 | Portless | [#413](https://github.com/vercel-labs/portless/pull/413) | Preserve routes when self-daemonized commands exit |
