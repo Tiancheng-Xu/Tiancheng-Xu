@@ -67,7 +67,7 @@ Full-stack engineer with 8 years of software development experience across traff
 
 ## Open-source contributions
 
-当前展示 14 个 GitHub stars 至少 1,000 的上游仓库共建：**7 merged + 15 open pull requests**（共 22 项，仓库星数核验于 2026-09-26）。低于门槛的历史贡献保留在内部记录，不列入此公开列表。
+当前公开列表覆盖 17 个 GitHub stars 至少 1,000 的上游仓库：**7 merged + 18 open pull requests**（共 25 项；原有仓库星数快照截至 2026-09-26，本次新增 / 更新仓库于 2026-10-01 复核）。低于门槛的历史贡献保留在内部记录，不列入此公开列表。
 
 ### Merged
 
@@ -99,9 +99,12 @@ Full-stack engineer with 8 years of software development experience across traff
 | RTK | [#3922](https://github.com/rtk-ai/rtk/pull/3922) | Add a gitleaks TOML filter |
 | wagmi | [#5250](https://github.com/wevm/wagmi/pull/5250) | Preserve connector compatibility and forward `dataSuffix` from the default client |
 | Context Mode | [#1128](https://github.com/mksglu/context-mode/pull/1128) | Fix bounded curl/wget pipeline and multiline routing |
-| Portless | [#413](https://github.com/vercel-labs/portless/pull/413) | Preserve routes when self-daemonized commands exit |
+| Avante | [#3266](https://github.com/avante-corp/avante.nvim/pull/3266) | Draft: label ACP providers in the provider switch without changing regular labels or the provider API |
+| cmux | [#15795](https://github.com/manaflow-ai/cmux/pull/15795) | Restore browser interaction state when reopening through the legacy fallback |
+| OpenResearch | [#477](https://github.com/alphaXiv/OpenResearch/pull/477) | Draft: show experiment run duration, with a live timer for active runs |
+| Portless | [#413](https://github.com/vercel-labs/portless/pull/413) | Original PR remains open; successor [#444](https://github.com/vercel-labs/portless/pull/444) by another author credits Tiancheng-Xu as co-author, including the self-daemon E2E fixture |
 
-> Open PRs are listed as work under upstream review; only merged PRs are presented as completed upstream contributions.
+> Open PRs are listed as work under upstream review; draft status is marked explicitly. Only merged PRs are presented as completed upstream contributions.
 
 ### Active issue investigations
 
