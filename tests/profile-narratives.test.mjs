@@ -57,8 +57,8 @@ test("open-source contribution totals and merged/open sections match the verifie
     .filter((line) => /^\| [^|]+ \| \[[^\]]+\]\(https:\/\/github\.com\/[^/]+\/[^/]+\/pull\/\d+\)/.test(line));
 
   assert.equal(pullRequestRows(merged[1]).length, 7);
-  assert.equal(pullRequestRows(open[1]).length, 15);
+  assert.equal(pullRequestRows(open[1]).length, 18);
   assert.match(merged[1], /Crosstalk-Solutions\/project-nomad\/pull\/1358/);
   assert.doesNotMatch(open[1], /Crosstalk-Solutions\/project-nomad\/pull\/1358/);
-  assert.match(readme, /\*\*7 merged \+ 15 open pull requests\*\*[^\n]*2026-09-26/);
+  assert.match(readme, /\*\*7 merged \+ 18 open pull requests\*\*[^\n]*2026-09-26/);
 });
