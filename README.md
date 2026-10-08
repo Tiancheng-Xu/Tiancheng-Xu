@@ -6,6 +6,8 @@ Full-stack engineer with 8 years of software development experience across traff
 
 面向生产可靠性的 AI Agent 全栈工程师，关注模型路由、工具调用、状态恢复、评测与成本治理。
 
+持续参与开源共建，围绕源码排障、兼容性修复与工程维护贡献改进，并与上游维护者协作迭代。
+
 ## Core strengths
 
 - 8 年软件开发经验，覆盖前端架构、复杂政企业务交付与多运行时全栈协作，重视系统鲁棒性、可维护性、可恢复性与可观测性。
