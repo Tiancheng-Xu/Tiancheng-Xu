@@ -1,16 +1,16 @@
 # Hi, I'm Tiancheng Xu
 
-Full-stack engineer with 8 years of software development experience across traffic command dashboards and government low/no-code FDE delivery. I build front-office and middle-platform applications, AI Agent and Web3 products, and evidence-backed engineering workflows.
+Full-stack engineer with 8 years of software development and FDE delivery experience. I lead requirements, architecture trade-offs, delivery, and iteration for AI Agent, full-stack, and engineering-tool products, distinguishing released products from ongoing enhancements.
 
-拥有 8 年软件开发经验的全栈工程师，具备交警大屏与政企低零代码项目的 FDE 交付经验，负责前台应用与中台能力的工程实现；当前专注 AI Agent、Web3、Cloud / Edge 与可验证工程交付。
+拥有 8 年软件开发与 FDE 交付经验，主控本人负责的需求、方案与上线迭代；聚焦 AI Agent、全栈与工程工具产品，将业务规则、运行边界和可验证交付连成闭环。
 
-面向生产可靠性的 AI Agent 全栈工程师，关注模型路由、工具调用、状态恢复、评测与成本治理。
+实际产品已上线或完成本机交付；当前增强版本、运行环境与公开证据分别说明，不把局部待验概括为整个项目是 Demo。
 
 持续参与开源共建，围绕源码排障、兼容性修复与工程维护贡献改进，并与上游维护者协作迭代。
 
 ## Core strengths
 
-- 8 年软件开发经验，覆盖前端架构、复杂政企业务交付与多运行时全栈协作，重视系统鲁棒性、可维护性、可恢复性与可观测性。
+- 从业务问题出发，主控本人负责的需求澄清、方案取舍、模块交付与验收迭代；政府项目聚焦平台复用、接口集成与现场交付。
 - 将模型判断与确定性规则分层，以 Checkpoint、幂等、人工审批、Evidence 和结构化评测约束高风险 Agent 任务。
 - 按资产权限、事实基线、可观测性、回滚演练与 SLO / Runbook 分阶段接管复杂系统；外部副作用未知时进入 `uncertain / manual_review` 对账，模型服务不可用时切换备用 Provider、本地 Ollama 或人工兜底。
 - 熟悉 TypeScript、JavaScript、React、Vue，具备 Python、Node.js、FastAPI、PostgreSQL、WebSocket 与 AWS Serverless 开发实践。
@@ -19,11 +19,11 @@ Full-stack engineer with 8 years of software development experience across traff
 
 ## Professional experience
 
-### 2026 · 北京阿拉丁科技（兼职）
+### 2025.06–2026.10 · 北京阿拉丁科技（兼职）
 
 **全栈工程师（AI Agent / Web3）**
 
-参与 AI Agent 与 Web3 平台的全栈工程协作，围绕任务编排、分布式调度、异步执行、状态聚合、链上交付与内容生产工作流推进产品实现。
+任职高级前端并承担全栈交付职责，主控本人负责的 AI Agent / Web3 产品需求、方案和交付。Agent Market 与 BabySteps 归入该兼职经历，具体模块与协作分别说明。
 
 - 参与任务发布与编辑、语义分类、子任务拆解、Agent 匹配派发、执行状态和结果聚合等端到端流程。
 - 协同 PostgreSQL / pgvector、GraphQL、Webhook / SSE、消息队列及 AWS 完成系统联调，推进异步任务、并发控制和状态流转。
@@ -31,40 +31,41 @@ Full-stack engineer with 8 years of software development experience across traff
 
 ### 2023–2026 · Government low-code / FDE engineering · Ningbo
 
-- 驻场服务宁波市公安局科信、特警等相关业务部门，参与低零代码与 FDE 项目建设，围绕业务需求梳理、模块划分、组件复用、系统集成和状态联动推进前台应用与中台能力落地。
+- 驻场服务宁波市公安局科信、特警等相关业务部门，主控本人负责的低零代码 / FDE 应用交付，将需求拆成输入、规则、输出和验收，权衡平台复用与定制，推进系统集成与上线迭代。
 - 与市局、分局科信部门及派出所保持业务沟通，协调需求变更、联调验收与持续迭代。
 - 在连续交付中由页面实现拓展至前中台协作、模块边界设计和问题闭环，对系统鲁棒性、可维护性与交付质量形成更全面、深入的理解。
 
 ### 2020–2023 · Traffic dashboard FDE engineering · Ningbo
 
-- 驻场宁波市交警局，参与交警大屏 FDE 项目建设。
+- 驻场宁波市交警局，主控本人负责的交警大屏应用与中台模块交付，从业务口径、数据接口推进至可视化联动与现场验收。
 - 负责可视化展示应用与中台能力的工程实现，围绕模块复用、数据呈现、交互状态联动和页面性能开展开发与联调。
 - 结合现场业务反馈定位问题、推进需求落地与验收交付，并持续改进大屏运行的稳定性和可维护性。
 
-## 2026 part-time project work · Beijing
+## 2025.06–2026.10 part-time project work · Beijing
 
-只收录个人仓库中已有实际实现的项目；空仓库、模板仓库和仅有规划的项目不列入经历。
+按本人主控的实际产品与具体职责整理；已上线产品和当前增强版本分列，外部参考、模板与题面不计为独立产品。
 
 | Project | What I built | Evidence |
 | --- | --- | --- |
-| Agent Market | **AI Agent 交易与任务分发平台。** Queen 将需求拆成 DAG，候选 Agent 经标签硬过滤、向量相关度与信誉评分排序后由人工或系统选定；Agent 分阶段生产，Judge 进行规则与 LLM 多维评测，不合格结果进入 Repair，最终由 Final Arbiter 汇总交付。将模型能力与确定性 Gate 分层，通过 Checkpoint、幂等、人工审批与 Evidence 约束高风险任务；V1 保留已验证生产证据。Jev + Laya 双影子扩展仍未合并/发布：确定性基线立即返回并保持业务决策权，`calibrated: false`；Node 22 Agent Runner 为 203 passed / 8 skipped，离线模型冷启动和冻结标注评估待验。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
-| Aladdin Web3 Agent | 参与 AI Agent 分布式任务调度与 Web3 交付平台的全栈工程协作。覆盖 Job 编辑发布、语义分类与任务拆解、Agent 自动匹配与派单、异步反馈、结果聚合、合约托管结算，以及将用户创意拆解为剧本、角色 / 场景 / 道具、分镜、视频片段与最终合成的 AI 内容生产链路。 | [Portfolio](https://baby2b.online/dashboard/) |
-| BabySteps | **家庭成长产品与渐进式 Web3 应用。** 覆盖成长任务、家长中心、纪念馆、Provider 与链上交互；Cloudflare Edge SSR 先返回安全摘要壳，再按 marker、路径和版本门禁精确水合身份、钱包与性能 SDK。水合不一致时执行一次性纯 CSR fallback，重点解决浏览器专属依赖、服务端渲染和身份边界之间的冲突。 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Evidence](https://babysteps.baby2b.online/evidence/) |
+| Agent Market | **主控、已上线的任务分发产品。** 组织规划、匹配、审批、执行与交付，分开模型判断、业务规则和工具权限；以 Checkpoint、动作账本和版本审批处理恢复及结果未知。V1 生产证据与当前多模型 / 双影子增强分列，后者未合并发布，离线冷启动与冻结标注评估仍待验。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
+| Aladdin Web3 Agent | **主控本人负责的应用与接口交付。** 覆盖任务发布、拆解与派发、异步反馈和结果聚合，联调合约托管结算与 AI 内容生产；具体本人模块与平台协作分开说明。 | [Portfolio](https://baby2b.online/dashboard/) |
+| BabySteps | **主控、已上线的家庭成长产品。** 连接成长任务、家长中心与链上交互，分开钱包状态、业务权限和交易事实；通过 Edge SSR、水合前提与受控 CSR 回退组织页面接管。Sepolia、历史发布与当前增强范围分别说明。 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Evidence](https://babysteps.baby2b.online/evidence/) |
 
 ## Personal engineering portfolio system
 
-以下项目用于展示个人工程能力，不作为兼职或客户项目经历：
+以下为本人主控的个人产品与工程工具，分别说明公网发布、本机交付与当前增强，不重复计入兼职或客户经历：
 
 | Project | What it demonstrates | Links |
 | --- | --- | --- |
-| Personal AI Agent | **AI 智能客服与私有化模型交付（训练历史）+ 本地 RAG / Agent 工程。** Qwen3-8B 经 NF4 QLoRA、GGUF 与 Ollama 本地运行；49 条冻结集评测中，v2 bigram F1 为 0.2146，v3 为 0.2129，故保留 v2。已合并 BM25 / 向量混合检索、RRF、引用编号与空证据门禁、SQLite Checkpoint 和取消语义；20 题固定合成 BM25 回归暴露近义漏召回、旧规则排序及有候选无答案，不代表模型准确率。静态 Evidence 清单和 20 个公开资产已发布，不等于线上模型部署；生成、逐主张语义支持与真实拒答仍待评测。业务工具与人工转接仍是系统方案。 | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
-| GitHub Profile Studio | **本地优先的 GitHub 公开资料工作台。** React / TanStack 前端共享统一 API 契约，可切换 Hono / Node 或 Go 后端，SQLite / Drizzle 负责草稿与幂等写入；访问令牌只留在服务端和 macOS 钥匙串，浏览器只编辑白名单字段，解决双运行时契约一致性与凭据隔离问题。 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) · [Evidence](https://baby2b.online/evidence/github-profile-studio) |
-| Showcase Dashboard | **静态优先的个人工程作品系统。** 人工审核索引定义项目身份与核心叙事，GitHub App / Cloudflare Worker 动态补充发布清单；SSG 首屏、水合数据、按需 Babylon / Archify、项目深链、旧域名重定向和真实 404 共同解决性能、内容一致性与重型交互边界。 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) · [Evidence](https://baby2b.online/evidence/fullstack-showcase) |
+| Personal AI Agent | **主控私有知识产品与本机模型交付。** 将事实检索与行为训练分开，以混合召回、RRF、重排和引用组织回答；Qwen3-8B 微调、量化与 Ollama 完成本机交付。49 条冻结集中 v2 bigram F1 0.2146 高于 v3 0.2129，因此保留 v2；该指标不等于 RAG 准确率。网站发布、当前检索增强与待补语义评测分列。 | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
+| OfficeFlow 办公流程 Agent | **主控、已上线的办公流程产品。** 可信字段 → 版本审批 → 执行 → 独立结果核对，设计 API / Browser 分工与未知结果恢复。当前生产记录为合成工作区、规则提案且模型关闭；OCR 增强待验，不声称真实采购业绩。 | [Live](https://office-workflow-agent.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/office-workflow-agent) · [Evidence](https://office-workflow-agent.baby2b.online/evidence/) |
+| GitHub Profile Studio | **主控并交付本地优先的资料工作台。** 统一 API 契约适配 Hono / Node 与 Go，SQLite 幂等保存白名单字段，凭据隔离在服务端与 macOS 钥匙串。本地保存不等于更新 GitHub 账号或 Profile README；公网 API 托管版本尚未在当前材料中定位。 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) · [Evidence](https://baby2b.online/evidence/github-profile-studio) |
+| Showcase Dashboard | **主控、已上线的静态优先作品系统。** 人工审核项目身份与核心叙事，同步只补已有项目的更新时间；以 SSG、水合和按需 3D 管住内容一致性、首屏与重型交互边界。 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) · [Evidence](https://baby2b.online/evidence/fullstack-showcase) |
 | Portfolio Sync | **GitHub App 驱动的作品集同步系统。** 仅收录声明 Baby2B 发布清单和 Evidence 地址的仓库；Webhook 经 HMAC 验签后即时更新，短期只读 Installation Token 拉取内容，Cloudflare Worker / KV 聚合结果，30 分钟定时刷新补齐事件遗漏，主站保留人工审核静态回退。 | [Live](https://portfolio-sync.baby2b.online/) · [Evidence](https://baby2b.online/evidence/portfolio-sync) |
 | 性能观测与成本控制 | **短生命周期性能观测与成本控制面。** 浏览器采集 Core Web Vitals 与资源耗时，受保护入口通过固定工作流启停聚合链路，并用 nonce、幂等键、HMAC 回调和不可变快照约束执行；停止后封入口、清理项目资源并保留历史结果。AWS 当前停用，恢复工作保留为 TODO。 | [Control](https://baby2b.online/performance-control/babysteps) · [Evidence](https://baby2b.online/evidence/performance-observability-control) |
 | TC Flow 2.1 | **可恢复的 Feature 交付工作流。** Contract / Context 明确范围与验收，N1-N8 串联实现、审查、P0 / PII / Fallback / Human Gate 和 Feature QA；Checkpoint、事件流与 RunResult 持久化过程状态，使长任务在失败、续跑和多人协作时仍能回到正确节点。 | [Repository](https://github.com/Tiancheng-Xu/personal-skills/tree/main/skills/tc-flow) · [Evidence](https://baby2b.online/evidence/tc-workflow) |
 
-| Hatch Pet | **Codex v2 动态宠物生成工作流（公开 PRD）。** 定义从概念或获准参考图到角色一致性、九种动画状态、16 个方向姿态及质量门禁的交付契约。当前公开仓库仅含脱敏产品文档，生成实现与私人宠物素材未公开。 | [PRD](https://github.com/Tiancheng-Xu/hatch-pet/blob/main/PRD.md) · [Repository](https://github.com/Tiancheng-Xu/hatch-pet) |
+| Hatch Pet | **主控宠物产品的角色、格式和质量交付。** 产品级交付按本人确认；当前公开仓库仅提供脱敏规格，具体实现与对应交付入口尚需定位，不以公开旧树否定私有交付，也不补写未知生成器功能。 | [PRD](https://github.com/Tiancheng-Xu/hatch-pet/blob/main/PRD.md) · [Repository](https://github.com/Tiancheng-Xu/hatch-pet) |
 
 > 部分项目源码为私有仓库。公开页面只展示获准公开的产品与证据，不暴露凭据、私有数据集或模型权重。
 
