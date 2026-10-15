@@ -4,46 +4,86 @@ import assert from "node:assert/strict";
 
 const readme = readFileSync(new URL("../README.md", import.meta.url), "utf8");
 
-test("resume presents the approved eight-year full-stack profile and systems knowledge", () => {
-  assert.match(readme, /Full-stack engineer with 8 years of software development experience/);
-  assert.match(readme, /拥有 8 年软件开发经验的全栈工程师/);
-  assert.match(readme, /不可变数据、函数组合与高阶函数/);
-  assert.match(readme, /ELF、Section \/ Segment、\.text \/ \.data \/ \.bss/);
-  assert.match(readme, /Global Offset Table/);
-  assert.match(readme, /Procedure Linkage Table/);
-  assert.match(readme, /library interposition \/ function wrapping/);
-});
+function assertExperience(text) {
+  assert.match(text, /Full-stack engineer with 8 years of software development and FDE delivery experience/);
+  assert.match(text, /拥有 8 年软件开发与 FDE 交付经验/);
+  assert.match(text, /主控本人负责的需求、方案与上线迭代/);
+  assert.match(text, /当前增强版本、运行环境与公开证据分别说明/);
+  assert.match(text, /不可变数据、函数组合与高阶函数/);
+  assert.match(text, /ELF、Section \/ Segment、\.text \/ \.data \/ \.bss/);
+  assert.match(text, /Global Offset Table/);
+  assert.match(text, /Procedure Linkage Table/);
+  assert.match(text, /library interposition \/ function wrapping/);
+}
 
-test("Aladdin experience describes full-stack product work without a frontend role label", () => {
-  const aladdin = readme.match(/### 2026 · 北京阿拉丁科技（兼职）([\s\S]*?)\n### 2023–2026/);
+function assertPartTimeExperience(text) {
+  const aladdin = text.match(/### 2025\.06–2026\.10 · 北京阿拉丁科技（兼职）([\s\S]*?)\n### 2023–2026/);
   assert.ok(aladdin, "Aladdin experience section is present");
   assert.match(aladdin[1], /全栈工程师（AI Agent \/ Web3）/);
-  assert.doesNotMatch(aladdin[1], /前端|React|Vite|Next\.js/);
-  assert.match(aladdin[1], /异步执行、状态聚合/);
-});
+  assert.match(aladdin[1], /任职高级前端并承担全栈交付职责/);
+  assert.match(aladdin[1], /主控本人负责的 AI Agent \/ Web3 产品需求、方案和交付/);
+  assert.match(aladdin[1], /Agent Market 与 BabySteps 归入该兼职经历，具体模块与协作分别说明/);
+  assert.match(aladdin[1], /执行状态和结果聚合/);
+  assert.match(aladdin[1], /异步任务、并发控制和状态流转/);
+}
 
-test("Agent Market includes bounded Jev and Laya shadow integration and current evidence", () => {
-  const agentMarket = readme.match(/^\| Agent Market \|([^\n]+)$/m);
+function assertAgentMarket(text) {
+  const agentMarket = text.match(/^\| Agent Market \|([^\n]+)$/m);
   assert.ok(agentMarket, "Agent Market project row is present");
-  assert.match(agentMarket[1], /AI Agent 交易与任务分发平台/);
-  assert.match(agentMarket[1], /Jev \+ Laya 双影子扩展/);
-  assert.match(agentMarket[1], /calibrated: false/);
-  assert.match(agentMarket[1], /203 passed \/ 8 skipped/);
-  assert.match(agentMarket[1], /离线模型冷启动和冻结标注评估待验/);
+  assert.match(agentMarket[1], /任务交付的 Agent 协作平台/);
+  assert.match(agentMarket[1], /计划、匹配、版本批准与质量复核/);
+  assert.match(agentMarket[1], /企业权限和 System-One 增强按代码 \/ 设计分层/);
   assert.match(agentMarket[1], /https:\/\/agent-market\.baby2b\.online\//);
   assert.match(agentMarket[1], /https:\/\/github\.com\/Tiancheng-Xu\/agent-market/);
   assert.match(agentMarket[1], /https:\/\/agent-market\.baby2b\.online\/evidence\//);
+}
+
+function assertPersonalAgent(text) {
+  const personalAgent = text.match(/^\| Personal AI Agent \|([^\n]+)$/m);
+  assert.ok(personalAgent, "Personal AI Agent project row is present");
+  assert.match(personalAgent[1], /私有资料的可溯源问答：混合检索、引用与取消/);
+  assert.match(personalAgent[1], /模型训练、本机交付和检索评测分账/);
+  assert.match(personalAgent[1], /业务工具按方案说明/);
+  assert.match(personalAgent[1], /https:\/\/personal-ai-agent\.baby2b\.online\/evidence\//);
+}
+
+function assertPortfolioSync(text) {
+  const sync = text.match(/^\| Portfolio Sync \|([^\n]+)$/m);
+  assert.ok(sync, "Portfolio Sync project row is present");
+  assert.match(sync[1], /仅补人工审核项目的更新时间，不覆盖状态、叙事或证据链接/);
+  assert.match(sync[1], /增强已实现只读 OpenAPI 契约、按需读取、分页与 ETag \/ 304 \/ HEAD（尚未部署）/);
+  assert.match(sync[1], /https:\/\/portfolio-sync\.baby2b\.online\//);
+  assert.match(sync[1], /https:\/\/baby2b\.online\/evidence\/portfolio-sync/);
+  assert.doesNotMatch(sync[1], /。；/);
+}
+
+test("resume preserves the approved eight-year full-stack and FDE scope", () => {
+  assertExperience(readme);
 });
 
-test("Personal AI Agent uses the verified implementation and evaluation evidence", () => {
-  const personalAgent = readme.match(/^\| Personal AI Agent \|([^\n]+)$/m);
-  assert.ok(personalAgent, "Personal AI Agent project row is present");
-  assert.match(personalAgent[1], /AI 智能客服与私有化模型交付/);
-  assert.match(personalAgent[1], /Qwen3-8B/);
-  assert.match(personalAgent[1], /NF4 QLoRA/);
-  assert.match(personalAgent[1], /49 条冻结集评测/);
-  assert.match(personalAgent[1], /v2 bigram F1 为 0\.2146，v3 为 0\.2129/);
-  assert.match(personalAgent[1], /https:\/\/personal-ai-agent\.baby2b\.online\/evidence\//);
+test("Aladdin preserves the real role, part-time ownership and delivery responsibilities", () => {
+  assertPartTimeExperience(readme);
+});
+
+// Detailed experiment metrics belong in project Evidence; Profile stays concise.
+test("Agent Market retains its product scope, enhancement boundary and evidence", () => {
+  assertAgentMarket(readme);
+});
+
+test("Personal AI Agent separates training, retrieval evaluation and planned tools", () => {
+  assertPersonalAgent(readme);
+});
+
+test("Portfolio Sync keeps audited fields and undeployed HTTP enhancements separate", () => {
+  assertPortfolioSync(readme);
+});
+
+test("narrative guards reject inflated experience, ownership and delivery claims", () => {
+  assert.throws(() => assertExperience(readme.replace("8 years", "9 years")), assert.AssertionError);
+  assert.throws(() => assertPartTimeExperience(readme.replace("Agent Market 与 BabySteps 归入该兼职经历", "Agent Market 与 BabySteps 是两份独立任职")), assert.AssertionError);
+  assert.throws(() => assertAgentMarket(readme.replace("企业权限和 System-One 增强按代码 / 设计分层", "企业权限和 System-One 增强均已生产验证")), assert.AssertionError);
+  assert.throws(() => assertPersonalAgent(readme.replace("模型训练、本机交付和检索评测分账", "训练 F1 等于检索准确率")), assert.AssertionError);
+  assert.throws(() => assertPortfolioSync(readme.replace("HEAD（尚未部署）", "HEAD（已部署）")), assert.AssertionError);
 });
 
 test("open-source contribution totals and merged/open sections match the verified fact pack", () => {
