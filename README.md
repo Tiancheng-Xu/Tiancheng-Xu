@@ -15,7 +15,7 @@ Full-stack engineer with 8 years of software development and FDE delivery experi
 - 按资产权限、事实基线、可观测性、回滚演练与 SLO / Runbook 分阶段接管复杂系统；外部副作用未知时进入 `uncertain / manual_review` 对账，模型服务不可用时切换备用 Provider、本地 Ollama 或人工兜底。
 - 熟悉 TypeScript、JavaScript、React、Vue，具备 Python、Node.js、FastAPI、PostgreSQL、WebSocket 与 AWS Serverless 开发实践。
 - 熟悉函数式编程中的纯函数、不可变数据、函数组合与高阶函数，并将其用于状态建模和复杂流程拆解；具备计算机系统基础，理解从编译、链接、装载到运行的程序生命周期，了解 DLL（Dynamic Linking Library）动态链接库、ELF、Section / Segment、.text / .data / .bss、符号重定位，以及 GOT（Global Offset Table）、PLT（Procedure Linkage Table）与库打桩（library interposition / function wrapping）等机制。
-- 主动学习与知识沉淀：我围绕计算机系统、Python、AI 与前端工程持续学习，结合课程、技术文章和会议资料梳理知识之间的联系，记录自己的理解、疑问与待实践的问题，并在 Share 分享阶段思考。→ [学习手记](https://baby2b.online/sharing/#learning-journal)
+- 主动学习与知识沉淀：我围绕计算机系统、Python、AI 与前端工程持续学习，结合课程、技术文章和会议资料梳理知识之间的联系，记录自己的理解、疑问与待实践的问题，并在 Share 分享阶段思考。主动跟踪 WebMCP、Agentic Web 与 MCP 等技术前瞻及标准演进，将网页工具化、Agent 互操作与权限边界研究转为企业 AI 应用的选型与方案判断，并在 Portfolio Sync 增强中落地按需读取与条件请求（待发布）。→ [学习手记](https://baby2b.online/sharing/#learning-journal)
 
 ## Professional experience
 
@@ -61,7 +61,7 @@ Full-stack engineer with 8 years of software development and FDE delivery experi
 | OfficeFlow 办公流程 Agent | 口语需求转可人核字段，批准后受控执行并独立核对；多源材料与通用文档解析核心属于扩展设计，未冒充 OCR 交付。 | [Live](https://office-workflow-agent.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/office-workflow-agent) · [Evidence](https://office-workflow-agent.baby2b.online/evidence/) |
 | GitHub Profile Studio | 统一前端契约适配 Node / Go，白名单编辑幂等保存到本地 SQLite；凭据留服务端，公网托管另列规划。 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) · [Evidence](https://baby2b.online/evidence/github-profile-studio) |
 | Showcase Dashboard | 静态优先的作品与 Evidence 系统；人工审核定位，水合接管交互，公开摘要与私有事实源分离。 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) · [Evidence](https://baby2b.online/evidence/fullstack-showcase) |
-| Portfolio Sync | 已完成 Showcase 事件同步：Webhook 验签、短期只读身份和定时对账，仅补人工审核项目的更新时间，不覆盖状态、叙事或证据链接。 | [Live](https://portfolio-sync.baby2b.online/) · [Evidence](https://baby2b.online/evidence/portfolio-sync) |
+| Portfolio Sync | 已完成 Showcase 事件同步：Webhook 验签、短期只读身份和定时对账，仅补人工审核项目的更新时间，不覆盖状态、叙事或证据链接；增强已实现只读 OpenAPI 契约、按需读取、分页与 ETag / 304 / HEAD（尚未部署）。 | [Live](https://portfolio-sync.baby2b.online/) · [Evidence](https://baby2b.online/evidence/portfolio-sync) |
 | 性能观测与成本控制 | 按需采样、启停和历史快照分层；未知不填零，受控实验不冒充真实用户 SLO 或全账户零费用。 | [Control](https://baby2b.online/performance-control/babysteps) · [Evidence](https://baby2b.online/evidence/performance-observability-control) |
 | TC Flow 2.1 | 契约、独立 Review、Checkpoint 与 QA 串起可恢复研发；配套 Shared Evidence Verifier 以 OIDC 和固定清单核对公开交付，不替代业务验收。 |[Repository](https://github.com/Tiancheng-Xu/personal-skills/tree/main/skills/tc-flow) · [Evidence](https://baby2b.online/evidence/tc-workflow) · [Verifier Evidence](https://baby2b.online/evidence/shared-evidence-verifier) |
 | Hatch Pet | 角色基准到动作、方向、视觉审查和安装包的生成流程设计；公开规格不等于新增生成器已验收。 | [PRD](https://github.com/Tiancheng-Xu/hatch-pet/blob/main/PRD.md) · [Repository](https://github.com/Tiancheng-Xu/hatch-pet) |
