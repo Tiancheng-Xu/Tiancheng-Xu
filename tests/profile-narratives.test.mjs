@@ -102,3 +102,6 @@ test("open-source contribution totals and merged/open sections match the verifie
   assert.doesNotMatch(open[1], /Crosstalk-Solutions\/project-nomad\/pull\/1358/);
   assert.match(readme, /\*\*7 merged \+ 18 open pull requests\*\*[^\n]*2026-09-26/);
 });
+
+
+test("public profile uses engineering language without classroom or study framing", () => { assert.doesNotMatch(readme, /课堂|主动学习|学习手记|课程来源|学习工具/); assert.match(readme, /技术研究与工程实践/); });

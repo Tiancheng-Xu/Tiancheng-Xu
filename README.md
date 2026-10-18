@@ -15,7 +15,7 @@ Full-stack engineer with 8 years of software development and FDE delivery experi
 - 按资产权限、事实基线、可观测性、回滚演练与 SLO / Runbook 分阶段接管复杂系统；外部副作用未知时进入 `uncertain / manual_review` 对账，模型服务不可用时切换备用 Provider、本地 Ollama 或人工兜底。
 - 熟悉 TypeScript、JavaScript、React、Vue，具备 Python、Node.js、FastAPI、PostgreSQL、WebSocket 与 AWS Serverless 开发实践。
 - 熟悉函数式编程中的纯函数、不可变数据、函数组合与高阶函数，并将其用于状态建模和复杂流程拆解；具备计算机系统基础，理解从编译、链接、装载到运行的程序生命周期，了解 DLL（Dynamic Linking Library）动态链接库、ELF、Section / Segment、.text / .data / .bss、符号重定位，以及 GOT（Global Offset Table）、PLT（Procedure Linkage Table）与库打桩（library interposition / function wrapping）等机制。
-- 主动学习与知识沉淀：我围绕计算机系统、Python、AI 与前端工程持续学习，结合课程、技术文章和会议资料梳理知识之间的联系，记录自己的理解、疑问与待实践的问题，并在 Share 分享阶段思考。主动跟踪 WebMCP、Agentic Web 与 MCP 等技术前瞻及标准演进，将网页工具化、Agent 互操作与权限边界研究转为企业 AI 应用的选型与方案判断，并在 Portfolio Sync 增强中落地按需读取与条件请求（待发布）。→ [学习手记](https://baby2b.online/sharing/#learning-journal)
+- 技术研究与工程实践：围绕计算机系统、AI 与前端工程梳理技术选型、架构取舍和运行边界，以实现与交付记录支撑方案判断；跟踪 WebMCP、Agentic Web 与 MCP 等技术及标准演进，关注网页工具化、Agent 互操作与权限边界。在 Portfolio Sync 增强中实现按需读取与条件请求，版本发布状态与对应证据分别说明。→ [技术分享](https://baby2b.online/sharing/)
 
 ## Professional experience
 
@@ -68,7 +68,7 @@ Full-stack engineer with 8 years of software development and FDE delivery experi
 | 售后 Agent 工作台 | 工单、版本提案、角色审批与动作账本组成可核对的售后流程；模型建议和当前整品增强按各自验收范围说明。 | [Evidence](https://baby2b.online/evidence/service-agent-workbench) |
 | Hono GitHub 资料云服务 | 外部资料经白名单校验与幂等存储接入页面；Serverless、私网数据库和短期身份为云方案，真实云闭环另验。 | [Evidence](https://baby2b.online/evidence/hono-github-profile) |
 | WeChat Intent HUD | 主动读取可见输入并给出表达候选，不代发送；取消隔离迟到结果，真实模型效果与 OCR 预览按增强方案说明。 | [Evidence](https://baby2b.online/evidence/wechat-intent-hud) |
-| Codex Translate | 划词、本地翻译、语境缩写与课程来源检索串成学习工具；AI 深挖须主动触发，本机安装与权限验收分开。 | [Evidence](https://baby2b.online/evidence/codex-translate) |
+| Codex Translate | 划词、本地翻译、语境缩写与带来源资料检索串成阅读工具；AI 深挖须主动触发，本机安装与权限验收分开。 | [Evidence](https://baby2b.online/evidence/codex-translate) |
 | 知识整理与证据管线 | 来源、转录与复核分层；规划将短 PDF / 扫描图转为带原页区域的提取结果和质量报告，解析核心尚未实现。 | [Evidence](https://baby2b.online/evidence/knowledge-evidence-pipeline) |
 | Codex Mascot / BaoBao Puff | 角色、动作、方向与透明图集结合格式及视觉审核；资产交付与生成服务分开，时段轮换及主题按接入范围说明。 | [Evidence](https://baby2b.online/evidence/codex-mascot) |
 
