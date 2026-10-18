@@ -103,5 +103,19 @@ test("open-source contribution totals and merged/open sections match the verifie
   assert.match(readme, /\*\*7 merged \+ 18 open pull requests\*\*[^\n]*2026-09-26/);
 });
 
-
-test("public profile uses engineering language without classroom or study framing", () => { assert.doesNotMatch(readme, /课堂|主动学习|学习手记|课程来源|学习工具/); assert.match(readme, /技术研究与工程实践/); });
+test("public profile uses engineering language without classroom or study framing", () => {
+  assert.doesNotMatch(readme, /课堂|主动学习|学习手记|课程来源|学习工具|\bDemo\b/);
+  assert.match(readme, /技术研究与工程实践/);
+});
+test("commercial exploration contains four separate business products with accurate entry scope", () => {
+  const section = readme.match(/## 商业探索\n([\s\S]*?)\n## Open-source contributions/);
+  assert.ok(section);
+  const rows = section[1].split("\n").filter(line => /^\| (外贸询价复核|礼盒变更复核|订单交期变更核对|制造企业产品资料与素材交接) \|/.test(line));
+  assert.equal(rows.length, 4);
+  assert.match(section[1], /固定合成资料只读交期核对，客户上传关闭/);
+  assert.match(section[1], /https:\/\/orderguard\.baby2b\.online\//);
+  assert.doesNotMatch(readme, /\b(?:demo|learning)\b|课堂|练习/i);
+  for (const id of ["commercial-rfq-review", "commercial-gift-review", "commercial-orderguard", "commercial-ai-export"]) assert.ok(section[1].includes("/evidence/" + id));
+  const before = readme.slice(0, readme.indexOf("## 商业探索"));
+  for (const name of ["外贸询价复核", "礼盒变更复核", "订单交期变更核对", "制造企业产品资料与素材交接"]) assert.ok(!before.includes("| " + name + " |"));
+});

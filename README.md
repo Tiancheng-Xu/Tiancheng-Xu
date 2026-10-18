@@ -4,7 +4,7 @@ Full-stack engineer with 8 years of software development and FDE delivery experi
 
 拥有 8 年软件开发与 FDE 交付经验，主控本人负责的需求、方案与上线迭代；聚焦 AI Agent、全栈与工程工具产品，将业务规则、运行边界和可验证交付连成闭环。
 
-实际产品已上线或完成本机交付；当前增强版本、运行环境与公开证据分别说明，不把局部待验概括为整个项目是 Demo。
+实际产品已上线或完成本机交付；当前增强版本、运行环境与公开证据分别说明。
 
 持续参与开源共建，围绕源码排障、兼容性修复与工程维护贡献改进，并与上游维护者协作迭代。
 
@@ -73,6 +73,19 @@ Full-stack engineer with 8 years of software development and FDE delivery experi
 | Codex Mascot / BaoBao Puff | 角色、动作、方向与透明图集结合格式及视觉审核；资产交付与生成服务分开，时段轮换及主题按接入范围说明。 | [Evidence](https://baby2b.online/evidence/codex-mascot) |
 
 > 部分项目源码为私有仓库。公开页面只展示获准公开的产品与证据，不暴露凭据、私有数据集或模型权重。
+
+## 商业探索
+
+面向询价、礼盒核价、订单交期与产品资料交接的四项产品，独立于个人工程工具表。[查看 Dashboard 商业探索](https://baby2b.online/dashboard/#commercial-exploration)。
+
+| 产品 | 业务实现与当前范围 | 公开入口 |
+| --- | --- | --- |
+| 外贸询价复核 | 紧固件询价三方复核、版本人审与安全恢复；复用 BidLint 与解析库。恢复验收 64 项，云承载待验。 | [Evidence](https://baby2b.online/evidence/commercial-rfq-review) |
+| 礼盒变更复核 | MOQ、阶梯价与余量成本核对，保留版本和采购审批；复用 RuleEngine。固定 CSV 导入 51 项分批检查通过，Web 上传与真实身份待验。 | [Evidence](https://baby2b.online/evidence/commercial-gift-review) |
+| 订单交期变更核对 | 订单行映射、日期规则与幂等对账；复用 LangGraph。已上线固定合成资料只读交期核对，客户上传关闭，不代替真实 ERP 写入验收。 | [产品入口](https://orderguard.baby2b.online/) · [Evidence](https://baby2b.online/evidence/commercial-orderguard) |
+| 制造企业产品资料与素材交接 | 事实 / SKU 约束、审核依赖与哈希交接；复用 MIT 成片函数和媒体工具。76 项离线检查，真实 Frappe 运行待验。 | [Evidence](https://baby2b.online/evidence/commercial-ai-export) |
+
+真实客户效果与付款待验证；测试批次、上游复用与实际运行范围详见各项目 Evidence。
 
 ## Open-source contributions
 
