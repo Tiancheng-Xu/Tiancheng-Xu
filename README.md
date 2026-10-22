@@ -8,6 +8,8 @@ Full-stack engineer with 8 years of software development and FDE delivery experi
 
 持续参与开源共建，围绕源码排障、兼容性修复与工程维护贡献改进，并与上游维护者协作迭代。
 
+AI 内容商业化探索：主导「金金」原创 IP 的选题、AI 创作、审核与发布闭环，运营文旅、亲子故事与家庭工具三条内容线。→ [小红书 · 金金的山海漫游记](https://www.xiaohongshu.com/user/profile/5f128571000000000101e9a6)
+
 ## Core strengths
 
 - 从业务问题出发，主控本人负责的需求澄清、方案取舍、模块交付与验收迭代；政府项目聚焦平台复用、接口集成与现场交付。
