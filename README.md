@@ -1,5 +1,7 @@
 # Hi, I'm Tiancheng Xu
 
+> 过去，工作靠肌肉；现在，工作靠大脑；而未来，工作将靠心灵。
+
 Full-stack engineer with 8 years of software development and FDE delivery experience. I lead requirements, architecture trade-offs, delivery, and iteration for AI Agent, full-stack, and engineering-tool products, distinguishing released products from ongoing enhancements.
 
 拥有 8 年软件开发与 FDE 交付经验，主控本人负责的需求、方案与上线迭代；聚焦 AI Agent、全栈与工程工具产品，将业务规则、运行边界和可验证交付连成闭环。
