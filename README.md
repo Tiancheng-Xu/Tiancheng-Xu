@@ -49,9 +49,9 @@ AI 内容商业化探索：主导「金金」原创 IP 的选题、AI 创作、�
 
 | Project | What I built | Evidence |
 | --- | --- | --- |
-| Agent Market | 任务交付的 Agent 协作平台：计划、匹配、版本批准与质量复核；企业权限和 System-One 增强按代码 / 设计分层。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
-| Aladdin Web3 Agent | **主控本人负责的应用与接口交付。** 覆盖任务发布、拆解与派发、异步反馈和结果聚合，联调合约托管结算与 AI 内容生产；具体本人模块与平台协作分开说明。 | [Portfolio](https://baby2b.online/dashboard/) |
-| BabySteps | 访客优先的家庭成长产品：亲子任务、成长积分与进阶链上体验；钱包、业务授权和交易事实分开核对。 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Evidence](https://babysteps.baby2b.online/evidence/) |
+| [Agent Market](https://agent-market.baby2b.online/) | 任务交付的 Agent 协作平台：计划、匹配、版本批准与质量复核；企业权限和 System-One 增强按代码 / 设计分层。 | [Live](https://agent-market.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/agent-market) · [Evidence](https://agent-market.baby2b.online/evidence/) |
+| [Aladdin Web3 Agent](https://baby2b.online/dashboard/#project-aladdin) | **主控本人负责的应用与接口交付。** 覆盖任务发布、拆解与派发、异步反馈和结果聚合，联调合约托管结算与 AI 内容生产；具体本人模块与平台协作分开说明。 | [Portfolio](https://baby2b.online/dashboard/#project-aladdin) |
+| [BabySteps](https://babysteps.baby2b.online/) | 访客优先的家庭成长产品：亲子任务、成长积分与进阶链上体验；钱包、业务授权和交易事实分开核对。 | [Live](https://babysteps.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/babysteps) · [Evidence](https://babysteps.baby2b.online/evidence/) |
 
 ## Personal engineering portfolio system
 
@@ -59,20 +59,21 @@ AI 内容商业化探索：主导「金金」原创 IP 的选题、AI 创作、�
 
 | Project | What it demonstrates | Links |
 | --- | --- | --- |
-| Personal AI Agent | 私有资料的可溯源问答：混合检索、引用与取消；模型训练、本机交付和检索评测分账，业务工具按方案说明。 | [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
-| OfficeFlow 办公流程 Agent | 口语需求转可人核字段，批准后受控执行并独立核对；多源材料与通用文档解析核心属于扩展设计，未冒充 OCR 交付。 | [Live](https://office-workflow-agent.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/office-workflow-agent) · [Evidence](https://office-workflow-agent.baby2b.online/evidence/) |
-| GitHub Profile Studio | 统一前端契约适配 Node / Go，白名单编辑幂等保存到本地 SQLite；凭据留服务端，公网托管另列规划。 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) · [Evidence](https://baby2b.online/evidence/github-profile-studio) |
-| Showcase Dashboard | 静态优先的作品与 Evidence 系统；人工审核定位，水合接管交互，公开摘要与私有事实源分离。 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) · [Evidence](https://baby2b.online/evidence/fullstack-showcase) |
-| Portfolio Sync | 已完成 Showcase 事件同步：Webhook 验签、短期只读身份和定时对账，仅补人工审核项目的更新时间，不覆盖状态、叙事或证据链接；增强已实现只读 OpenAPI 契约、按需读取、分页与 ETag / 304 / HEAD（尚未部署）。 | [Live](https://portfolio-sync.baby2b.online/) · [Evidence](https://baby2b.online/evidence/portfolio-sync) |
-| 性能观测与成本控制 | 按需采样、启停和历史快照分层；未知不填零，受控实验不冒充真实用户 SLO 或全账户零费用。 | [Control](https://baby2b.online/performance-control/babysteps) · [Evidence](https://baby2b.online/evidence/performance-observability-control) |
+| [Personal AI Agent](https://personal-ai-agent.baby2b.online/) | 私有资料的可溯源问答：混合检索、引用与取消；模型训练、本机交付和检索评测分账，业务工具按方案说明。 | [Live](https://personal-ai-agent.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/personal-ai-agent) · [Evidence](https://personal-ai-agent.baby2b.online/evidence/) |
+| [Qwen 云端工坊](https://qwen.baby2b.online/) | 文生图、图片编辑、原图参数复现、3D 人偶摆姿与双图姿势迁移；网页提交任务、本机执行生成，任务及图片接口需本人登录。 | [项目主页（需授权）](https://qwen.baby2b.online/) · [项目介绍](https://github.com/Tiancheng-Xu/personal-ai-agent#qwen-云端工坊) |
+| [OfficeFlow 办公流程 Agent](https://office-workflow-agent.baby2b.online/) | 口语需求转可人核字段，批准后受控执行并独立核对；多源材料与通用文档解析核心属于扩展设计，未冒充 OCR 交付。 | [Live](https://office-workflow-agent.baby2b.online/) · [Repository](https://github.com/Tiancheng-Xu/office-workflow-agent) · [Evidence](https://office-workflow-agent.baby2b.online/evidence/) |
+| [GitHub Profile Studio](https://github.com/Tiancheng-Xu/github-profile-studio) | 统一前端契约适配 Node / Go，白名单编辑幂等保存到本地 SQLite；凭据留服务端，公网托管另列规划。 | [Repository](https://github.com/Tiancheng-Xu/github-profile-studio) · [Evidence](https://baby2b.online/evidence/github-profile-studio) |
+| [Showcase Dashboard](https://baby2b.online/dashboard/) | 静态优先的作品与 Evidence 系统；人工审核定位，水合接管交互，公开摘要与私有事实源分离。 | [Repository](https://github.com/Tiancheng-Xu/fullstack-showcase) · [Live](https://baby2b.online/dashboard/) · [Evidence](https://baby2b.online/evidence/fullstack-showcase) |
+| [Portfolio Sync](https://portfolio-sync.baby2b.online/) | 已完成 Showcase 事件同步：Webhook 验签、短期只读身份和定时对账，仅补人工审核项目的更新时间，不覆盖状态、叙事或证据链接；增强已实现只读 OpenAPI 契约、按需读取、分页与 ETag / 304 / HEAD（尚未部署）。 | [Live](https://portfolio-sync.baby2b.online/) · [Evidence](https://baby2b.online/evidence/portfolio-sync) |
+| [性能观测与成本控制](https://baby2b.online/performance-control/babysteps) | 按需采样、启停和历史快照分层；未知不填零，受控实验不冒充真实用户 SLO 或全账户零费用。 | [Control](https://baby2b.online/performance-control/babysteps) · [Evidence](https://baby2b.online/evidence/performance-observability-control) |
 | TC Flow 2.1 | 契约、独立 Review、Checkpoint 与 QA 串起可恢复研发；配套 Shared Evidence Verifier 以 OIDC 和固定清单核对公开交付，不替代业务验收。 |[Repository](https://github.com/Tiancheng-Xu/personal-skills/tree/main/skills/tc-flow) · [Evidence](https://baby2b.online/evidence/tc-workflow) · [Verifier Evidence](https://baby2b.online/evidence/shared-evidence-verifier) |
-| Hatch Pet | 角色基准到动作、方向、视觉审查和安装包的生成流程设计；公开规格不等于新增生成器已验收。 | [PRD](https://github.com/Tiancheng-Xu/hatch-pet/blob/main/PRD.md) · [Repository](https://github.com/Tiancheng-Xu/hatch-pet) |
-| 售后 Agent 工作台 | 工单、版本提案、角色审批与动作账本组成可核对的售后流程；模型建议和当前整品增强按各自验收范围说明。 | [Evidence](https://baby2b.online/evidence/service-agent-workbench) |
-| Hono GitHub 资料云服务 | 外部资料经白名单校验与幂等存储接入页面；Serverless、私网数据库和短期身份为云方案，真实云闭环另验。 | [Evidence](https://baby2b.online/evidence/hono-github-profile) |
-| WeChat Intent HUD | 主动读取可见输入并给出表达候选，不代发送；取消隔离迟到结果，真实模型效果与 OCR 预览按增强方案说明。 | [Evidence](https://baby2b.online/evidence/wechat-intent-hud) |
-| Codex Translate | 划词、本地翻译、语境缩写与带来源资料检索串成阅读工具；AI 深挖须主动触发，本机安装与权限验收分开。 | [Evidence](https://baby2b.online/evidence/codex-translate) |
-| 知识整理与证据管线 | 来源、转录与复核分层；规划将短 PDF / 扫描图转为带原页区域的提取结果和质量报告，解析核心尚未实现。 | [Evidence](https://baby2b.online/evidence/knowledge-evidence-pipeline) |
-| Codex Mascot / BaoBao Puff | 角色、动作、方向与透明图集结合格式及视觉审核；资产交付与生成服务分开，时段轮换及主题按接入范围说明。 | [Evidence](https://baby2b.online/evidence/codex-mascot) |
+| [Hatch Pet](https://github.com/Tiancheng-Xu/hatch-pet/blob/main/PRD.md) | 角色基准到动作、方向、视觉审查和安装包的生成流程设计；公开规格不等于新增生成器已验收。 | [PRD](https://github.com/Tiancheng-Xu/hatch-pet/blob/main/PRD.md) · [Repository](https://github.com/Tiancheng-Xu/hatch-pet) |
+| [售后 Agent 工作台](https://baby2b.online/evidence/service-agent-workbench) | 工单、版本提案、角色审批与动作账本组成可核对的售后流程；模型建议和当前整品增强按各自验收范围说明。 | [Evidence](https://baby2b.online/evidence/service-agent-workbench) |
+| [Hono GitHub 资料云服务](https://baby2b.online/evidence/hono-github-profile) | 外部资料经白名单校验与幂等存储接入页面；Serverless、私网数据库和短期身份为云方案，真实云闭环另验。 | [Evidence](https://baby2b.online/evidence/hono-github-profile) |
+| [WeChat Intent HUD](https://baby2b.online/evidence/wechat-intent-hud) | 主动读取可见输入并给出表达候选，不代发送；取消隔离迟到结果，真实模型效果与 OCR 预览按增强方案说明。 | [Evidence](https://baby2b.online/evidence/wechat-intent-hud) |
+| [Codex Translate](https://baby2b.online/evidence/codex-translate) | 划词、本地翻译、语境缩写与带来源资料检索串成阅读工具；AI 深挖须主动触发，本机安装与权限验收分开。 | [Evidence](https://baby2b.online/evidence/codex-translate) |
+| [知识整理与证据管线](https://baby2b.online/evidence/knowledge-evidence-pipeline) | 来源、转录与复核分层；规划将短 PDF / 扫描图转为带原页区域的提取结果和质量报告，解析核心尚未实现。 | [Evidence](https://baby2b.online/evidence/knowledge-evidence-pipeline) |
+| [Codex Mascot / BaoBao Puff](https://baby2b.online/evidence/codex-mascot) | 角色、动作、方向与透明图集结合格式及视觉审核；资产交付与生成服务分开，时段轮换及主题按接入范围说明。 | [Evidence](https://baby2b.online/evidence/codex-mascot) |
 
 > 部分项目源码为私有仓库。公开页面只展示获准公开的产品与证据，不暴露凭据、私有数据集或模型权重。
 
@@ -82,10 +83,10 @@ AI 内容商业化探索：主导「金金」原创 IP 的选题、AI 创作、�
 
 | 产品 | 业务实现与当前范围 | 公开入口 |
 | --- | --- | --- |
-| 外贸询价复核 | 紧固件询价三方复核、版本人审与安全恢复；复用 BidLint 与解析库。恢复验收 64 项，云承载待验。 | [Evidence](https://baby2b.online/evidence/commercial-rfq-review) |
-| 礼盒变更复核 | MOQ、阶梯价与余量成本核对，保留版本和采购审批；复用 RuleEngine。固定 CSV 导入 51 项分批检查通过，Web 上传与真实身份待验。 | [Evidence](https://baby2b.online/evidence/commercial-gift-review) |
-| 订单交期变更核对 | 订单行映射、日期规则与幂等对账；复用 LangGraph。已上线固定合成资料只读交期核对，客户上传关闭，不代替真实 ERP 写入验收。 | [产品入口](https://orderguard.baby2b.online/) · [Evidence](https://baby2b.online/evidence/commercial-orderguard) |
-| 制造企业产品资料与素材交接 | 事实 / SKU 约束、审核依赖与哈希交接；复用 MIT 成片函数和媒体工具。76 项离线检查，真实 Frappe 运行待验。 | [Evidence](https://baby2b.online/evidence/commercial-ai-export) |
+| [外贸询价复核](https://baby2b.online/evidence/commercial-rfq-review) | 紧固件询价三方复核、版本人审与安全恢复；复用 BidLint 与解析库。恢复验收 64 项，云承载待验。 | [Evidence](https://baby2b.online/evidence/commercial-rfq-review) |
+| [礼盒变更复核](https://baby2b.online/evidence/commercial-gift-review) | MOQ、阶梯价与余量成本核对，保留版本和采购审批；复用 RuleEngine。固定 CSV 导入 51 项分批检查通过，Web 上传与真实身份待验。 | [Evidence](https://baby2b.online/evidence/commercial-gift-review) |
+| [订单交期变更核对](https://orderguard.baby2b.online/) | 订单行映射、日期规则与幂等对账；复用 LangGraph。已上线固定合成资料只读交期核对，客户上传关闭，不代替真实 ERP 写入验收。 | [产品入口](https://orderguard.baby2b.online/) · [Evidence](https://baby2b.online/evidence/commercial-orderguard) |
+| [制造企业产品资料与素材交接](https://baby2b.online/evidence/commercial-ai-export) | 事实 / SKU 约束、审核依赖与哈希交接；复用 MIT 成片函数和媒体工具。76 项离线检查，真实 Frappe 运行待验。 | [Evidence](https://baby2b.online/evidence/commercial-ai-export) |
 
 真实客户效果与付款待验证；测试批次、上游复用与实际运行范围详见各项目 Evidence。
 
